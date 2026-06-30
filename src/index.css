@@ -10,3 +10,30 @@
 body {
   font-family: "Vazirmatn";
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 9px;
+  color: #f1f1f1 !important;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+
+
+.swiper-button-next {
+  right: 25px !important;
+  left: auto !important;
+}
+
+
+.swiper-button-prev {
+  left: 25px !important;
+  right: auto !important;
+}
