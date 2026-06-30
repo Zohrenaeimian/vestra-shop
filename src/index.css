@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("./assets/fonts/Vazirmatn-Regular.ttf");
+}
+
+body {
+  font-family: "Vazirmatn";
+}
