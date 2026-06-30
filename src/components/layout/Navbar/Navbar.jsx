@@ -1,30 +1,90 @@
 import { Link } from "react-router-dom";
+import {
+  FiHeart,
+  FiShoppingCart,
+  FiUser,
+  FiSearch,
+  FiMenu,
+} from "react-icons/fi";
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
+import { useState } from "react";
+import MobileMenu from "../MobileMenu/MobileMenu";
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
-    <nav className="bg-white shadow-md">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link
-          to="/"
-          className="text-2xl font-bold text-slate-900"
-        >
-          VESTRA
-        </Link>
+    <nav className="sticky top-0 z-50 border-b bg-white">
+      <div className="container mx-auto">
+        <div className="flex h-20 items-center justify-between px-4">
+          {/* Mobile Menu */}
+          <button
+            onClick={() => setIsMenuOpen(true)}
+            className="text-2xl md:hidden"
+          >
+            <FiMenu />
+          </button>
 
-        <ul className="hidden gap-8 md:flex">
-          <li>
-            <Link to="/">خانه</Link>
-          </li>
+          <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 
-          <li>
-            <Link to="/products">محصولات</Link>
-          </li>
-        </ul>
+          {/* Logo */}
+          <Link to="/" className="text-3xl font-bold text-slate-900">
+            VESTRA
+          </Link>
 
-        <div className="flex items-center gap-4">
-          <Link to="/login">ورود</Link>
+          {/* Desktop Menu */}
+          <ul className="hidden items-center gap-8 md:flex">
+            <li>
+              <Link to="/" className="transition hover:text-yellow-500">
+                خانه
+              </Link>
+            </li>
 
-          <Link to="/cart">سبد خرید</Link>
+            <li>
+              <Link to="/products" className="transition hover:text-yellow-500">
+                محصولات
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to="/products?gender=women"
+                className="transition hover:text-yellow-500"
+              >
+                زنانه
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to="/products?gender=men"
+                className="transition hover:text-yellow-500"
+              >
+                مردانه
+              </Link>
+            </li>
+          </ul>
+
+          {/* Actions */}
+          <div className="flex items-center gap-4 text-2xl">
+            <button>
+              <FiSearch />
+            </button>
+
+            <ThemeToggle />
+
+            <Link to="/wishlist">
+              <FiHeart />
+            </Link>
+
+            <Link to="/cart">
+              <FiShoppingCart />
+            </Link>
+
+            <Link to="/login">
+              <FiUser />
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
