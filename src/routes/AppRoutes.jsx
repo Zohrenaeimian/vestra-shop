@@ -11,10 +11,13 @@ import MainLayout from "../layouts/MainLayout";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/products" element={<Products />} />
-      <Route path="/products/:id" element={<ProductDetails />} />
-      <Route path="/cart" element={<Cart />} />
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/products/:id" element={<ProductDetails />} />
+        <Route path="/cart" element={<Cart />} />
+      </Route>
+
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
 
