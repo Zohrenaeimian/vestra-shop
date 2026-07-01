@@ -10,7 +10,16 @@ import Newsletter from "../../components/home/Newsletter/Newsletter";
 
 function Home() {
   return (
-    <div className="mx-auto max-w-[1200px] px-4 py-8">
+    <div
+      className="
+        mx-auto
+        max-w-[1200px]
+        px-4
+        py-8
+        text-slate-900
+        dark:text-white
+      "
+    >
       <HeroSlider />
 
       <CategoriesSection />
@@ -24,7 +33,6 @@ function Home() {
       <MenCollection />
 
       <BestSellerProducts />
-
 
       <WhyUs />
 

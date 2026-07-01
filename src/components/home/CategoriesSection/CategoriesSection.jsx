@@ -3,7 +3,7 @@ import categories from "./categoriesData";
 
 function CategoriesSection() {
   return (
-    <section className="mt-14">
+    <section className="mt-14 dark:bg-slate-950 ">
       <div className="mb-8 flex items-center justify-between">
         <h2 className="text-2xl font-bold">
           دسته بندی محصولات
@@ -34,7 +34,7 @@ function CategoriesSection() {
               group
               overflow-hidden
               rounded-3xl
-              bg-white
+              dark:bg-slate-900
               shadow-sm
               transition
               hover:-translate-y-2

@@ -14,7 +14,14 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 border-b bg-white">
+    <nav
+      className="
+      border-b
+     bg-white
+     dark:bg-slate-900
+     dark:border-slate-700
+  "
+    >
       <div className="container mx-auto">
         <div className="flex h-20 items-center justify-between px-4">
           {/* Mobile Menu */}
