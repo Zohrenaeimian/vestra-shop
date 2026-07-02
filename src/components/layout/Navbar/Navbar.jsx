@@ -9,10 +9,15 @@ import {
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import { useState } from "react";
 import MobileMenu from "../MobileMenu/MobileMenu";
+import { useSelector } from "react-redux";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+const cartItems = useSelector(
+  (state) => state.cart.cartItems
+);
 
+console.log(cartItems);
   return (
     <nav
       className="

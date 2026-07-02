@@ -44,7 +44,7 @@ function ProductCard({ product }) {
 
           <p className="text-yellow-500">⭐ {product.rating}</p>
 
-          <p className="font-bold dark:text-white">
+          <div className="font-bold dark:text-white">
             <div className="mt-3">
               {hasDiscount ? (
                 <>
@@ -62,7 +62,7 @@ function ProductCard({ product }) {
                 </p>
               )}
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </Link>

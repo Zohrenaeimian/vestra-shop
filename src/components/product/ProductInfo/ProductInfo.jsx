@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../../store/slices/cartSlice";
 
 function ProductInfo({ product }) {
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
@@ -9,6 +11,7 @@ function ProductInfo({ product }) {
   const finalPrice = hasDiscount
     ? product.price - (product.price * product.discount) / 100
     : product.price;
+  const dispatch = useDispatch();
 
   return (
     <div className="space-y-6">
@@ -103,6 +106,15 @@ function ProductInfo({ product }) {
       </p>
 
       <button
+        onClick={() =>
+          dispatch(
+            addToCart({
+              ...product,
+              color: selectedColor,
+              size: selectedSize,
+            }),
+          )
+        }
         className="
     w-full
     rounded-xl
