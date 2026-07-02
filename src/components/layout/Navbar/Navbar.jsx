@@ -13,11 +13,9 @@ import { useSelector } from "react-redux";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-const cartItems = useSelector(
-  (state) => state.cart.cartItems
-);
+  const cartItems = useSelector((state) => state.cart.cartItems);
+  const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
 
-console.log(cartItems);
   return (
     <nav
       className="
@@ -89,8 +87,29 @@ console.log(cartItems);
               <FiHeart />
             </Link>
 
-            <Link to="/cart">
+            <Link to="/cart" className="relative">
               <FiShoppingCart />
+
+              {cartCount > 0 && (
+                <span
+                  className="
+        absolute
+        -right-2
+        -top-2
+        flex
+        h-5
+        w-5
+        items-center
+        justify-center
+        rounded-full
+        bg-red-500
+        text-xs
+        text-white
+      "
+                >
+                  {cartCount}
+                </span>
+              )}
             </Link>
 
             <Link to="/login">
