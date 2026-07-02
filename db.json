@@ -1,0 +1,3578 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "تیشرت مردانه مدل Classic",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 2450000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 34,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "cream",
+        "white",
+        "brown"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 38
+    },
+    {
+      "id": 2,
+      "title": "تیشرت مردانه مدل Classic",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 1800000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.2,
+      "reviewCount": 32,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "black",
+        "gray",
+        "white"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 29
+    },
+    {
+      "id": 3,
+      "title": "تیشرت مردانه مدل Classic",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 2300000,
+      "oldPrice": 2705882,
+      "discount": 15,
+      "rating": 4.8,
+      "reviewCount": 23,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "green",
+        "navy",
+        "pink"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 22
+    },
+    {
+      "id": 4,
+      "title": "تیشرت مردانه مدل Comfort",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 750000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.2,
+      "reviewCount": 47,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "gray",
+        "green",
+        "black"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 25
+    },
+    {
+      "id": 5,
+      "title": "تیشرت مردانه مدل Elegant",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 700000,
+      "oldPrice": 933333,
+      "discount": 25,
+      "rating": 4.8,
+      "reviewCount": 49,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "black"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 19
+    },
+    {
+      "id": 6,
+      "title": "تیشرت مردانه مدل Urban",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 700000,
+      "oldPrice": 777778,
+      "discount": 10,
+      "rating": 4.4,
+      "reviewCount": 61,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "brown",
+        "white",
+        "navy"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 18
+    },
+    {
+      "id": 7,
+      "title": "تیشرت مردانه مدل Urban",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 2650000,
+      "oldPrice": 3785714,
+      "discount": 30,
+      "rating": 4.6,
+      "reviewCount": 24,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "cream",
+        "white",
+        "pink"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 36
+    },
+    {
+      "id": 8,
+      "title": "تیشرت مردانه مدل Casual",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 1150000,
+      "oldPrice": 1642857,
+      "discount": 30,
+      "rating": 4.9,
+      "reviewCount": 10,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "cream",
+        "green",
+        "black"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 18
+    },
+    {
+      "id": 9,
+      "title": "تیشرت مردانه مدل Smart",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 650000,
+      "oldPrice": 722222,
+      "discount": 10,
+      "rating": 4.9,
+      "reviewCount": 43,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "pink"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 10
+    },
+    {
+      "id": 10,
+      "title": "تیشرت مردانه مدل Modern",
+      "category": "tshirt",
+      "gender": "men",
+      "price": 1250000,
+      "oldPrice": 1388889,
+      "discount": 10,
+      "rating": 4.8,
+      "reviewCount": 71,
+      "description": "تیشرت مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-tshirt.jpg",
+      "gallery": [
+        "/images/products/men-tshirt.jpg"
+      ],
+      "colors": [
+        "gray",
+        "brown",
+        "pink"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 24
+    },
+    {
+      "id": 11,
+      "title": "تیشرت زنانه مدل Elite",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 1150000,
+      "oldPrice": 1277778,
+      "discount": 10,
+      "rating": 4.5,
+      "reviewCount": 9,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "white",
+        "pink",
+        "brown"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 39
+    },
+    {
+      "id": 12,
+      "title": "تیشرت زنانه مدل Comfort",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 650000,
+      "oldPrice": 812500,
+      "discount": 20,
+      "rating": 4.6,
+      "reviewCount": 62,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "gray",
+        "pink",
+        "black"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 22
+    },
+    {
+      "id": 13,
+      "title": "تیشرت زنانه مدل Comfort",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 800000,
+      "oldPrice": 941176,
+      "discount": 15,
+      "rating": 4.2,
+      "reviewCount": 3,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "gray",
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 33
+    },
+    {
+      "id": 14,
+      "title": "تیشرت زنانه مدل Premium",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 2350000,
+      "oldPrice": 2611111,
+      "discount": 10,
+      "rating": 4.4,
+      "reviewCount": 23,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "black",
+        "gray",
+        "navy"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 8
+    },
+    {
+      "id": 15,
+      "title": "تیشرت زنانه مدل Elegant",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 3400000,
+      "oldPrice": 4000000,
+      "discount": 15,
+      "rating": 4.3,
+      "reviewCount": 33,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "white",
+        "black",
+        "brown"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 35
+    },
+    {
+      "id": 16,
+      "title": "تیشرت زنانه مدل Premium",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 2900000,
+      "oldPrice": 3222222,
+      "discount": 10,
+      "rating": 4.7,
+      "reviewCount": 73,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "navy",
+        "pink",
+        "gray"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 35
+    },
+    {
+      "id": 17,
+      "title": "تیشرت زنانه مدل Modern",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 2850000,
+      "oldPrice": 4071429,
+      "discount": 30,
+      "rating": 4.7,
+      "reviewCount": 54,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "gray"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 16
+    },
+    {
+      "id": 18,
+      "title": "تیشرت زنانه مدل Casual",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 1150000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.1,
+      "reviewCount": 73,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "cream",
+        "gray",
+        "white"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 4
+    },
+    {
+      "id": 19,
+      "title": "تیشرت زنانه مدل Classic",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 1150000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.9,
+      "reviewCount": 12,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "cream",
+        "navy",
+        "brown"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 35
+    },
+    {
+      "id": 20,
+      "title": "تیشرت زنانه مدل Smart",
+      "category": "tshirt",
+      "gender": "women",
+      "price": 850000,
+      "oldPrice": 1214286,
+      "discount": 30,
+      "rating": 4.6,
+      "reviewCount": 34,
+      "description": "تیشرت زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-tshirt.jpg",
+      "gallery": [
+        "/images/products/women-tshirt.jpg"
+      ],
+      "colors": [
+        "pink",
+        "green",
+        "cream"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 7
+    },
+    {
+      "id": 21,
+      "title": "شومیز زنانه مدل Casual",
+      "category": "blouse",
+      "gender": "women",
+      "price": 2550000,
+      "oldPrice": 3187500,
+      "discount": 20,
+      "rating": 4.5,
+      "reviewCount": 62,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "green"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 26
+    },
+    {
+      "id": 22,
+      "title": "شومیز زنانه مدل Urban",
+      "category": "blouse",
+      "gender": "women",
+      "price": 2750000,
+      "oldPrice": 3235294,
+      "discount": 15,
+      "rating": 4.3,
+      "reviewCount": 27,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "cream"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 30
+    },
+    {
+      "id": 23,
+      "title": "شومیز زنانه مدل Style",
+      "category": "blouse",
+      "gender": "women",
+      "price": 1200000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 73,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "white",
+        "black",
+        "brown"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 16
+    },
+    {
+      "id": 24,
+      "title": "شومیز زنانه مدل Style",
+      "category": "blouse",
+      "gender": "women",
+      "price": 950000,
+      "oldPrice": 1187500,
+      "discount": 20,
+      "rating": 4.5,
+      "reviewCount": 54,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "black",
+        "white",
+        "cream"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 17
+    },
+    {
+      "id": 25,
+      "title": "شومیز زنانه مدل Elegant",
+      "category": "blouse",
+      "gender": "women",
+      "price": 3400000,
+      "oldPrice": 4250000,
+      "discount": 20,
+      "rating": 4.5,
+      "reviewCount": 74,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "green"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 4
+    },
+    {
+      "id": 26,
+      "title": "شومیز زنانه مدل Elite",
+      "category": "blouse",
+      "gender": "women",
+      "price": 2300000,
+      "oldPrice": 3285714,
+      "discount": 30,
+      "rating": 4.2,
+      "reviewCount": 43,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "black",
+        "pink",
+        "gray"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 4
+    },
+    {
+      "id": 27,
+      "title": "شومیز زنانه مدل Premium",
+      "category": "blouse",
+      "gender": "women",
+      "price": 2050000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.2,
+      "reviewCount": 11,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "cream",
+        "pink",
+        "black"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 40
+    },
+    {
+      "id": 28,
+      "title": "شومیز زنانه مدل Smart",
+      "category": "blouse",
+      "gender": "women",
+      "price": 700000,
+      "oldPrice": 875000,
+      "discount": 20,
+      "rating": 4.6,
+      "reviewCount": 43,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "gray",
+        "white",
+        "brown"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 17
+    },
+    {
+      "id": 29,
+      "title": "شومیز زنانه مدل Elegant",
+      "category": "blouse",
+      "gender": "women",
+      "price": 1700000,
+      "oldPrice": 1888889,
+      "discount": 10,
+      "rating": 4.5,
+      "reviewCount": 12,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "black",
+        "cream",
+        "gray"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 35
+    },
+    {
+      "id": 30,
+      "title": "شومیز زنانه مدل Elegant",
+      "category": "blouse",
+      "gender": "women",
+      "price": 1100000,
+      "oldPrice": 1466667,
+      "discount": 25,
+      "rating": 4.2,
+      "reviewCount": 47,
+      "description": "شومیز زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/blouse.jpg",
+      "gallery": [
+        "/images/products/blouse.jpg"
+      ],
+      "colors": [
+        "white",
+        "pink",
+        "navy"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 29
+    },
+    {
+      "id": 31,
+      "title": "پیراهن زنانه مدل Elegant",
+      "category": "dress",
+      "gender": "women",
+      "price": 3100000,
+      "oldPrice": 4133333,
+      "discount": 25,
+      "rating": 4.7,
+      "reviewCount": 70,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "gray"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 9
+    },
+    {
+      "id": 32,
+      "title": "پیراهن زنانه مدل Urban",
+      "category": "dress",
+      "gender": "women",
+      "price": 1250000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 22,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "gray",
+        "navy",
+        "pink"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 14
+    },
+    {
+      "id": 33,
+      "title": "پیراهن زنانه مدل Elegant",
+      "category": "dress",
+      "gender": "women",
+      "price": 2600000,
+      "oldPrice": 3714286,
+      "discount": 30,
+      "rating": 4.6,
+      "reviewCount": 35,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "black",
+        "pink",
+        "brown"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 3
+    },
+    {
+      "id": 34,
+      "title": "پیراهن زنانه مدل Premium",
+      "category": "dress",
+      "gender": "women",
+      "price": 450000,
+      "oldPrice": 529412,
+      "discount": 15,
+      "rating": 4.7,
+      "reviewCount": 36,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "navy",
+        "brown",
+        "cream"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 8
+    },
+    {
+      "id": 35,
+      "title": "پیراهن زنانه مدل Premium",
+      "category": "dress",
+      "gender": "women",
+      "price": 650000,
+      "oldPrice": 928571,
+      "discount": 30,
+      "rating": 4.6,
+      "reviewCount": 50,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "navy",
+        "cream",
+        "white"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 24
+    },
+    {
+      "id": 36,
+      "title": "پیراهن زنانه مدل Casual",
+      "category": "dress",
+      "gender": "women",
+      "price": 3300000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.3,
+      "reviewCount": 34,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "white",
+        "navy",
+        "gray"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 16
+    },
+    {
+      "id": 37,
+      "title": "پیراهن زنانه مدل Premium",
+      "category": "dress",
+      "gender": "women",
+      "price": 3200000,
+      "oldPrice": 3555556,
+      "discount": 10,
+      "rating": 4.9,
+      "reviewCount": 6,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "navy",
+        "brown",
+        "pink"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 18
+    },
+    {
+      "id": 38,
+      "title": "پیراهن زنانه مدل Urban",
+      "category": "dress",
+      "gender": "women",
+      "price": 950000,
+      "oldPrice": 1357143,
+      "discount": 30,
+      "rating": 4.4,
+      "reviewCount": 7,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "green"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 20
+    },
+    {
+      "id": 39,
+      "title": "پیراهن زنانه مدل Modern",
+      "category": "dress",
+      "gender": "women",
+      "price": 3050000,
+      "oldPrice": 3388889,
+      "discount": 10,
+      "rating": 4.1,
+      "reviewCount": 27,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "green",
+        "navy",
+        "pink"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 23
+    },
+    {
+      "id": 40,
+      "title": "پیراهن زنانه مدل Comfort",
+      "category": "dress",
+      "gender": "women",
+      "price": 2500000,
+      "oldPrice": 3333333,
+      "discount": 25,
+      "rating": 4.7,
+      "reviewCount": 71,
+      "description": "پیراهن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-dress.jpg",
+      "gallery": [
+        "/images/products/women-dress.jpg"
+      ],
+      "colors": [
+        "brown",
+        "black",
+        "green"
+      ],
+      "sizes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 38
+    },
+    {
+      "id": 41,
+      "title": "پیراهن مردانه مدل Urban",
+      "category": "shirt",
+      "gender": "men",
+      "price": 1250000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.6,
+      "reviewCount": 47,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "gray"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 37
+    },
+    {
+      "id": 42,
+      "title": "پیراهن مردانه مدل Classic",
+      "category": "shirt",
+      "gender": "men",
+      "price": 1050000,
+      "oldPrice": 1235294,
+      "discount": 15,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "cream",
+        "navy",
+        "pink"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 40
+    },
+    {
+      "id": 43,
+      "title": "پیراهن مردانه مدل Urban",
+      "category": "shirt",
+      "gender": "men",
+      "price": 1450000,
+      "oldPrice": 2071429,
+      "discount": 30,
+      "rating": 4.7,
+      "reviewCount": 41,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "gray",
+        "brown",
+        "cream"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 19
+    },
+    {
+      "id": 44,
+      "title": "پیراهن مردانه مدل Modern",
+      "category": "shirt",
+      "gender": "men",
+      "price": 2200000,
+      "oldPrice": 2444444,
+      "discount": 10,
+      "rating": 4.5,
+      "reviewCount": 51,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "navy",
+        "gray",
+        "green"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 36
+    },
+    {
+      "id": 45,
+      "title": "پیراهن مردانه مدل Elegant",
+      "category": "shirt",
+      "gender": "men",
+      "price": 3100000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.4,
+      "reviewCount": 58,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "green"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 33
+    },
+    {
+      "id": 46,
+      "title": "پیراهن مردانه مدل Premium",
+      "category": "shirt",
+      "gender": "men",
+      "price": 1950000,
+      "oldPrice": 2785714,
+      "discount": 30,
+      "rating": 4.7,
+      "reviewCount": 39,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "brown",
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 13
+    },
+    {
+      "id": 47,
+      "title": "پیراهن مردانه مدل Classic",
+      "category": "shirt",
+      "gender": "men",
+      "price": 900000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.3,
+      "reviewCount": 63,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "white",
+        "cream",
+        "green"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 32
+    },
+    {
+      "id": 48,
+      "title": "پیراهن مردانه مدل Premium",
+      "category": "shirt",
+      "gender": "men",
+      "price": 1700000,
+      "oldPrice": 1888889,
+      "discount": 10,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "white",
+        "green",
+        "cream"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 34
+    },
+    {
+      "id": 49,
+      "title": "پیراهن مردانه مدل Elite",
+      "category": "shirt",
+      "gender": "men",
+      "price": 1900000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.3,
+      "reviewCount": 18,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "cream"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 40
+    },
+    {
+      "id": 50,
+      "title": "پیراهن مردانه مدل Elite",
+      "category": "shirt",
+      "gender": "men",
+      "price": 3050000,
+      "oldPrice": 4357143,
+      "discount": 30,
+      "rating": 4.5,
+      "reviewCount": 73,
+      "description": "پیراهن مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-shirt.jpg",
+      "gallery": [
+        "/images/products/men-shirt.jpg"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "brown"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 17
+    },
+    {
+      "id": 51,
+      "title": "شلوار جین زنانه مدل Elegant",
+      "category": "jeans",
+      "gender": "women",
+      "price": 2850000,
+      "oldPrice": 3166667,
+      "discount": 10,
+      "rating": 4.8,
+      "reviewCount": 69,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "pink",
+        "brown",
+        "white"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 5
+    },
+    {
+      "id": 52,
+      "title": "شلوار جین زنانه مدل Modern",
+      "category": "jeans",
+      "gender": "women",
+      "price": 2700000,
+      "oldPrice": 3176471,
+      "discount": 15,
+      "rating": 4.3,
+      "reviewCount": 43,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "white",
+        "pink",
+        "green"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 10
+    },
+    {
+      "id": 53,
+      "title": "شلوار جین زنانه مدل Urban",
+      "category": "jeans",
+      "gender": "women",
+      "price": 2700000,
+      "oldPrice": 3000000,
+      "discount": 10,
+      "rating": 4.5,
+      "reviewCount": 45,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "pink",
+        "cream",
+        "black"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 25
+    },
+    {
+      "id": 54,
+      "title": "شلوار جین زنانه مدل Classic",
+      "category": "jeans",
+      "gender": "women",
+      "price": 3300000,
+      "oldPrice": 4400000,
+      "discount": 25,
+      "rating": 4.9,
+      "reviewCount": 76,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "green",
+        "cream",
+        "black"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 25
+    },
+    {
+      "id": 55,
+      "title": "شلوار جین زنانه مدل Elite",
+      "category": "jeans",
+      "gender": "women",
+      "price": 3150000,
+      "oldPrice": 3937500,
+      "discount": 20,
+      "rating": 4.8,
+      "reviewCount": 72,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "cream",
+        "pink",
+        "white"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 32
+    },
+    {
+      "id": 56,
+      "title": "شلوار جین زنانه مدل Casual",
+      "category": "jeans",
+      "gender": "women",
+      "price": 500000,
+      "oldPrice": 625000,
+      "discount": 20,
+      "rating": 4.7,
+      "reviewCount": 54,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "navy",
+        "green",
+        "cream"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 26
+    },
+    {
+      "id": 57,
+      "title": "شلوار جین زنانه مدل Classic",
+      "category": "jeans",
+      "gender": "women",
+      "price": 2300000,
+      "oldPrice": 3066667,
+      "discount": 25,
+      "rating": 4.2,
+      "reviewCount": 57,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "navy",
+        "green",
+        "cream"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 17
+    },
+    {
+      "id": 58,
+      "title": "شلوار جین زنانه مدل Modern",
+      "category": "jeans",
+      "gender": "women",
+      "price": 1650000,
+      "oldPrice": 1941176,
+      "discount": 15,
+      "rating": 4.5,
+      "reviewCount": 46,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "green",
+        "navy",
+        "cream"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 31
+    },
+    {
+      "id": 59,
+      "title": "شلوار جین زنانه مدل Elite",
+      "category": "jeans",
+      "gender": "women",
+      "price": 500000,
+      "oldPrice": 714286,
+      "discount": 30,
+      "rating": 4.1,
+      "reviewCount": 47,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "black"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 16
+    },
+    {
+      "id": 60,
+      "title": "شلوار جین زنانه مدل Smart",
+      "category": "jeans",
+      "gender": "women",
+      "price": 1050000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.2,
+      "reviewCount": 19,
+      "description": "شلوار جین زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-jeans.jpg",
+      "gallery": [
+        "/images/products/women-jeans.jpg"
+      ],
+      "colors": [
+        "pink",
+        "brown",
+        "black"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 17
+    },
+    {
+      "id": 61,
+      "title": "شلوار جین مردانه مدل Premium",
+      "category": "jeans",
+      "gender": "men",
+      "price": 2900000,
+      "oldPrice": 3411765,
+      "discount": 15,
+      "rating": 4.6,
+      "reviewCount": 17,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "navy",
+        "pink",
+        "black"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 37
+    },
+    {
+      "id": 62,
+      "title": "شلوار جین مردانه مدل Comfort",
+      "category": "jeans",
+      "gender": "men",
+      "price": 2600000,
+      "oldPrice": 3250000,
+      "discount": 20,
+      "rating": 4.9,
+      "reviewCount": 28,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "white",
+        "gray",
+        "brown"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 20
+    },
+    {
+      "id": 63,
+      "title": "شلوار جین مردانه مدل Smart",
+      "category": "jeans",
+      "gender": "men",
+      "price": 3150000,
+      "oldPrice": 4500000,
+      "discount": 30,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "black",
+        "navy",
+        "gray"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 5
+    },
+    {
+      "id": 64,
+      "title": "شلوار جین مردانه مدل Casual",
+      "category": "jeans",
+      "gender": "men",
+      "price": 2050000,
+      "oldPrice": 2928571,
+      "discount": 30,
+      "rating": 4.1,
+      "reviewCount": 56,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "pink",
+        "black",
+        "cream"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 10
+    },
+    {
+      "id": 65,
+      "title": "شلوار جین مردانه مدل Elite",
+      "category": "jeans",
+      "gender": "men",
+      "price": 1800000,
+      "oldPrice": 2000000,
+      "discount": 10,
+      "rating": 5.0,
+      "reviewCount": 37,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "pink",
+        "cream",
+        "green"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 16
+    },
+    {
+      "id": 66,
+      "title": "شلوار جین مردانه مدل Elegant",
+      "category": "jeans",
+      "gender": "men",
+      "price": 3100000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.9,
+      "reviewCount": 34,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "pink",
+        "gray",
+        "green"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 2
+    },
+    {
+      "id": 67,
+      "title": "شلوار جین مردانه مدل Premium",
+      "category": "jeans",
+      "gender": "men",
+      "price": 2000000,
+      "oldPrice": 2352941,
+      "discount": 15,
+      "rating": 4.5,
+      "reviewCount": 48,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "gray",
+        "navy",
+        "green"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 34
+    },
+    {
+      "id": 68,
+      "title": "شلوار جین مردانه مدل Urban",
+      "category": "jeans",
+      "gender": "men",
+      "price": 3450000,
+      "oldPrice": 3833333,
+      "discount": 10,
+      "rating": 4.3,
+      "reviewCount": 55,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "pink",
+        "gray",
+        "white"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 29
+    },
+    {
+      "id": 69,
+      "title": "شلوار جین مردانه مدل Urban",
+      "category": "jeans",
+      "gender": "men",
+      "price": 2950000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.4,
+      "reviewCount": 54,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "cream",
+        "navy",
+        "brown"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 36
+    },
+    {
+      "id": 70,
+      "title": "شلوار جین مردانه مدل Comfort",
+      "category": "jeans",
+      "gender": "men",
+      "price": 2100000,
+      "oldPrice": 2470588,
+      "discount": 15,
+      "rating": 5.0,
+      "reviewCount": 73,
+      "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-jeans.jpg",
+      "gallery": [
+        "/images/products/men-jeans.jpg"
+      ],
+      "colors": [
+        "brown",
+        "navy",
+        "pink"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 20
+    },
+    {
+      "id": 71,
+      "title": "شلوار زنانه مدل Urban",
+      "category": "pants",
+      "gender": "women",
+      "price": 1250000,
+      "oldPrice": 1388889,
+      "discount": 10,
+      "rating": 4.7,
+      "reviewCount": 43,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "white",
+        "brown",
+        "gray"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 14
+    },
+    {
+      "id": 72,
+      "title": "شلوار زنانه مدل Elegant",
+      "category": "pants",
+      "gender": "women",
+      "price": 2800000,
+      "oldPrice": 3500000,
+      "discount": 20,
+      "rating": 4.8,
+      "reviewCount": 70,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "gray",
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 24
+    },
+    {
+      "id": 73,
+      "title": "شلوار زنانه مدل Classic",
+      "category": "pants",
+      "gender": "women",
+      "price": 1000000,
+      "oldPrice": 1176471,
+      "discount": 15,
+      "rating": 4.7,
+      "reviewCount": 19,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "gray",
+        "black",
+        "green"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 32
+    },
+    {
+      "id": 74,
+      "title": "شلوار زنانه مدل Smart",
+      "category": "pants",
+      "gender": "women",
+      "price": 750000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.4,
+      "reviewCount": 64,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "pink",
+        "navy",
+        "white"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 31
+    },
+    {
+      "id": 75,
+      "title": "شلوار زنانه مدل Comfort",
+      "category": "pants",
+      "gender": "women",
+      "price": 800000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.5,
+      "reviewCount": 76,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "black",
+        "white",
+        "green"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 16
+    },
+    {
+      "id": 76,
+      "title": "شلوار زنانه مدل Comfort",
+      "category": "pants",
+      "gender": "women",
+      "price": 800000,
+      "oldPrice": 1066667,
+      "discount": 25,
+      "rating": 4.6,
+      "reviewCount": 31,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "green",
+        "cream",
+        "pink"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 20
+    },
+    {
+      "id": 77,
+      "title": "شلوار زنانه مدل Classic",
+      "category": "pants",
+      "gender": "women",
+      "price": 2250000,
+      "oldPrice": 3000000,
+      "discount": 25,
+      "rating": 4.6,
+      "reviewCount": 15,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "white"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 11
+    },
+    {
+      "id": 78,
+      "title": "شلوار زنانه مدل Elite",
+      "category": "pants",
+      "gender": "women",
+      "price": 1200000,
+      "oldPrice": 1333333,
+      "discount": 10,
+      "rating": 4.2,
+      "reviewCount": 3,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "green",
+        "cream",
+        "brown"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 3
+    },
+    {
+      "id": 79,
+      "title": "شلوار زنانه مدل Elegant",
+      "category": "pants",
+      "gender": "women",
+      "price": 1150000,
+      "oldPrice": 1352941,
+      "discount": 15,
+      "rating": 4.7,
+      "reviewCount": 61,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "white",
+        "brown",
+        "pink"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 28
+    },
+    {
+      "id": 80,
+      "title": "شلوار زنانه مدل Modern",
+      "category": "pants",
+      "gender": "women",
+      "price": 800000,
+      "oldPrice": 1066667,
+      "discount": 25,
+      "rating": 4.7,
+      "reviewCount": 37,
+      "description": "شلوار زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/women-pants.jpg",
+      "gallery": [
+        "/images/products/women-pants.jpg"
+      ],
+      "colors": [
+        "navy",
+        "black",
+        "green"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 39
+    },
+    {
+      "id": 81,
+      "title": "شلوار مردانه مدل Elegant",
+      "category": "pants",
+      "gender": "men",
+      "price": 2800000,
+      "oldPrice": 3733333,
+      "discount": 25,
+      "rating": 4.5,
+      "reviewCount": 62,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "gray",
+        "brown",
+        "cream"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 29
+    },
+    {
+      "id": 82,
+      "title": "شلوار مردانه مدل Classic",
+      "category": "pants",
+      "gender": "men",
+      "price": 700000,
+      "oldPrice": 933333,
+      "discount": 25,
+      "rating": 4.9,
+      "reviewCount": 44,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "gray",
+        "black",
+        "green"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 18
+    },
+    {
+      "id": 83,
+      "title": "شلوار مردانه مدل Premium",
+      "category": "pants",
+      "gender": "men",
+      "price": 2250000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.5,
+      "reviewCount": 59,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "gray",
+        "white",
+        "pink"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 6
+    },
+    {
+      "id": 84,
+      "title": "شلوار مردانه مدل Comfort",
+      "category": "pants",
+      "gender": "men",
+      "price": 1950000,
+      "oldPrice": 2294118,
+      "discount": 15,
+      "rating": 4.4,
+      "reviewCount": 16,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "navy",
+        "pink",
+        "cream"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 26
+    },
+    {
+      "id": 85,
+      "title": "شلوار مردانه مدل Classic",
+      "category": "pants",
+      "gender": "men",
+      "price": 3050000,
+      "oldPrice": 4066667,
+      "discount": 25,
+      "rating": 4.5,
+      "reviewCount": 43,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "gray",
+        "navy",
+        "black"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 35
+    },
+    {
+      "id": 86,
+      "title": "شلوار مردانه مدل Classic",
+      "category": "pants",
+      "gender": "men",
+      "price": 1900000,
+      "oldPrice": 2375000,
+      "discount": 20,
+      "rating": 4.3,
+      "reviewCount": 49,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "pink",
+        "brown",
+        "cream"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 18
+    },
+    {
+      "id": 87,
+      "title": "شلوار مردانه مدل Elegant",
+      "category": "pants",
+      "gender": "men",
+      "price": 2200000,
+      "oldPrice": 2444444,
+      "discount": 10,
+      "rating": 4.5,
+      "reviewCount": 65,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "white",
+        "black",
+        "brown"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 20
+    },
+    {
+      "id": 88,
+      "title": "شلوار مردانه مدل Elite",
+      "category": "pants",
+      "gender": "men",
+      "price": 2200000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.5,
+      "reviewCount": 31,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "white",
+        "cream",
+        "black"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 19
+    },
+    {
+      "id": 89,
+      "title": "شلوار مردانه مدل Elegant",
+      "category": "pants",
+      "gender": "men",
+      "price": 2050000,
+      "oldPrice": 2928571,
+      "discount": 30,
+      "rating": 4.5,
+      "reviewCount": 64,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "cream"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 13
+    },
+    {
+      "id": 90,
+      "title": "شلوار مردانه مدل Elite",
+      "category": "pants",
+      "gender": "men",
+      "price": 3350000,
+      "oldPrice": 4466667,
+      "discount": 25,
+      "rating": 4.8,
+      "reviewCount": 20,
+      "description": "شلوار مردانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/men-pants.jpg",
+      "gallery": [
+        "/images/products/men-pants.jpg"
+      ],
+      "colors": [
+        "white",
+        "navy",
+        "cream"
+      ],
+      "sizes": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 1
+    },
+    {
+      "id": 91,
+      "title": "دامن زنانه مدل Elegant",
+      "category": "skirt",
+      "gender": "women",
+      "price": 1350000,
+      "oldPrice": 1928571,
+      "discount": 30,
+      "rating": 4.9,
+      "reviewCount": 77,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "pink",
+        "green",
+        "white"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 23
+    },
+    {
+      "id": 92,
+      "title": "دامن زنانه مدل Elite",
+      "category": "skirt",
+      "gender": "women",
+      "price": 1500000,
+      "oldPrice": 2000000,
+      "discount": 25,
+      "rating": 4.4,
+      "reviewCount": 44,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "cream",
+        "brown",
+        "white"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 27
+    },
+    {
+      "id": 93,
+      "title": "دامن زنانه مدل Style",
+      "category": "skirt",
+      "gender": "women",
+      "price": 550000,
+      "oldPrice": 647059,
+      "discount": 15,
+      "rating": 4.7,
+      "reviewCount": 51,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "green",
+        "brown",
+        "pink"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 3
+    },
+    {
+      "id": 94,
+      "title": "دامن زنانه مدل Smart",
+      "category": "skirt",
+      "gender": "women",
+      "price": 850000,
+      "oldPrice": 1133333,
+      "discount": 25,
+      "rating": 4.4,
+      "reviewCount": 15,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "pink",
+        "black",
+        "gray"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 10
+    },
+    {
+      "id": 95,
+      "title": "دامن زنانه مدل Premium",
+      "category": "skirt",
+      "gender": "women",
+      "price": 1750000,
+      "oldPrice": 2500000,
+      "discount": 30,
+      "rating": 4.2,
+      "reviewCount": 36,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "brown",
+        "gray",
+        "pink"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 22
+    },
+    {
+      "id": 96,
+      "title": "دامن زنانه مدل Elite",
+      "category": "skirt",
+      "gender": "women",
+      "price": 3150000,
+      "oldPrice": 4500000,
+      "discount": 30,
+      "rating": 4.4,
+      "reviewCount": 43,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "pink",
+        "green",
+        "gray"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 16
+    },
+    {
+      "id": 97,
+      "title": "دامن زنانه مدل Elegant",
+      "category": "skirt",
+      "gender": "women",
+      "price": 2450000,
+      "oldPrice": 3500000,
+      "discount": 30,
+      "rating": 5.0,
+      "reviewCount": 14,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "green",
+        "black",
+        "brown"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 11
+    },
+    {
+      "id": 98,
+      "title": "دامن زنانه مدل Classic",
+      "category": "skirt",
+      "gender": "women",
+      "price": 2650000,
+      "oldPrice": 3117647,
+      "discount": 15,
+      "rating": 4.1,
+      "reviewCount": 10,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "gray",
+        "navy",
+        "green"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 16
+    },
+    {
+      "id": 99,
+      "title": "دامن زنانه مدل Smart",
+      "category": "skirt",
+      "gender": "women",
+      "price": 2100000,
+      "oldPrice": 2625000,
+      "discount": 20,
+      "rating": 4.7,
+      "reviewCount": 26,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "navy",
+        "white",
+        "black"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": false,
+      "isBestSeller": true,
+      "stock": 32
+    },
+    {
+      "id": 100,
+      "title": "دامن زنانه مدل Premium",
+      "category": "skirt",
+      "gender": "women",
+      "price": 3350000,
+      "oldPrice": 4466667,
+      "discount": 25,
+      "rating": 4.3,
+      "reviewCount": 35,
+      "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
+      "image": "/images/products/skirt.jpg",
+      "gallery": [
+        "/images/products/skirt.jpg"
+      ],
+      "colors": [
+        "pink",
+        "navy",
+        "brown"
+      ],
+      "sizes": [
+        "36",
+        "38",
+        "40"
+      ],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 19
+    },
+    {
+      "id": 101,
+      "title": "کیف زنانه مدل Elite",
+      "category": "bag",
+      "gender": "women",
+      "price": 1200000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.3,
+      "reviewCount": 27,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 21
+    },
+    {
+      "id": 102,
+      "title": "کیف زنانه مدل Comfort",
+      "category": "bag",
+      "gender": "women",
+      "price": 2900000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.4,
+      "reviewCount": 59,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 7
+    },
+    {
+      "id": 103,
+      "title": "کیف زنانه مدل Comfort",
+      "category": "bag",
+      "gender": "women",
+      "price": 2200000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.3,
+      "reviewCount": 29,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 19
+    },
+    {
+      "id": 104,
+      "title": "کیف زنانه مدل Elegant",
+      "category": "bag",
+      "gender": "women",
+      "price": 2900000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.4,
+      "reviewCount": 58,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 9
+    },
+    {
+      "id": 105,
+      "title": "کیف زنانه مدل Classic",
+      "category": "bag",
+      "gender": "women",
+      "price": 2500000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.9,
+      "reviewCount": 54,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 20
+    },
+    {
+      "id": 106,
+      "title": "کیف زنانه مدل Style",
+      "category": "bag",
+      "gender": "women",
+      "price": 1600000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 19,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 8
+    },
+    {
+      "id": 107,
+      "title": "کیف زنانه مدل Modern",
+      "category": "bag",
+      "gender": "women",
+      "price": 2650000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.4,
+      "reviewCount": 53,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": true,
+      "stock": 21
+    },
+    {
+      "id": 108,
+      "title": "کیف زنانه مدل Urban",
+      "category": "bag",
+      "gender": "women",
+      "price": 2700000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.7,
+      "reviewCount": 24,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 2
+    },
+    {
+      "id": 109,
+      "title": "کیف زنانه مدل Smart",
+      "category": "bag",
+      "gender": "women",
+      "price": 1850000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 10,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 11
+    },
+    {
+      "id": 110,
+      "title": "کیف زنانه مدل Comfort",
+      "category": "bag",
+      "gender": "women",
+      "price": 1250000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.4,
+      "reviewCount": 55,
+      "description": "کیف زنانه شیک و کاربردی.",
+      "image": "/images/products/bag.jpg",
+      "gallery": [
+        "/images/products/bag.jpg"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "sizes": [],
+      "isNew": true,
+      "isBestSeller": false,
+      "stock": 17
+    },
+    {
+      "id": 111,
+      "title": "جوراب مدل Elite",
+      "category": "socks",
+      "gender": "men",
+      "price": 170000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 9,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 66
+    },
+    {
+      "id": 112,
+      "title": "جوراب مدل Elegant",
+      "category": "socks",
+      "gender": "men",
+      "price": 190000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 15,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 14
+    },
+    {
+      "id": 113,
+      "title": "جوراب مدل Premium",
+      "category": "socks",
+      "gender": "men",
+      "price": 160000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.9,
+      "reviewCount": 24,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 55
+    },
+    {
+      "id": 114,
+      "title": "جوراب مدل Elite",
+      "category": "socks",
+      "gender": "men",
+      "price": 200000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.1,
+      "reviewCount": 13,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 6
+    },
+    {
+      "id": 115,
+      "title": "جوراب مدل Elegant",
+      "category": "socks",
+      "gender": "men",
+      "price": 120000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.5,
+      "reviewCount": 22,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 38
+    },
+    {
+      "id": 116,
+      "title": "جوراب مدل Smart",
+      "category": "socks",
+      "gender": "men",
+      "price": 210000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.8,
+      "reviewCount": 12,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 18
+    },
+    {
+      "id": 117,
+      "title": "جوراب مدل Modern",
+      "category": "socks",
+      "gender": "men",
+      "price": 240000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.0,
+      "reviewCount": 29,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 76
+    },
+    {
+      "id": 118,
+      "title": "جوراب مدل Casual",
+      "category": "socks",
+      "gender": "men",
+      "price": 160000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.6,
+      "reviewCount": 21,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 64
+    },
+    {
+      "id": 119,
+      "title": "جوراب مدل Elegant",
+      "category": "socks",
+      "gender": "men",
+      "price": 220000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.1,
+      "reviewCount": 2,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 9
+    },
+    {
+      "id": 120,
+      "title": "جوراب مدل Elegant",
+      "category": "socks",
+      "gender": "men",
+      "price": 240000,
+      "oldPrice": null,
+      "discount": 0,
+      "rating": 4.1,
+      "reviewCount": 8,
+      "description": "جوراب نخی با کیفیت.",
+      "image": "/images/products/socks.jpg",
+      "gallery": [
+        "/images/products/socks.jpg"
+      ],
+      "colors": [
+        "black",
+        "white"
+      ],
+      "sizes": [
+        "Free"
+      ],
+      "isNew": false,
+      "isBestSeller": false,
+      "stock": 73
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "تیشرت مردانه",
+      "slug": "tshirt-men",
+      "image": "/images/categories/tshirt-men.jpg"
+    },
+    {
+      "id": 2,
+      "title": "تیشرت زنانه",
+      "slug": "tshirt-women",
+      "image": "/images/categories/tshirt-women.jpg"
+    },
+    {
+      "id": 3,
+      "title": "شومیز",
+      "slug": "blouse",
+      "image": "/images/categories/blouse.jpg"
+    },
+    {
+      "id": 4,
+      "title": "پیراهن زنانه",
+      "slug": "dress-women",
+      "image": "/images/categories/dress.jpg"
+    },
+    {
+      "id": 5,
+      "title": "پیراهن مردانه",
+      "slug": "shirt-men",
+      "image": "/images/categories/shirt.jpg"
+    },
+    {
+      "id": 6,
+      "title": "شلوار جین",
+      "slug": "jeans",
+      "image": "/images/categories/jeans.jpg"
+    },
+    {
+      "id": 7,
+      "title": "شلوار",
+      "slug": "pants",
+      "image": "/images/categories/pants.jpg"
+    },
+    {
+      "id": 8,
+      "title": "دامن",
+      "slug": "skirt",
+      "image": "/images/categories/skirt.jpg"
+    },
+    {
+      "id": 9,
+      "title": "کیف",
+      "slug": "bag",
+      "image": "/images/categories/bag.jpg"
+    },
+    {
+      "id": 10,
+      "title": "جوراب",
+      "slug": "socks",
+      "image": "/images/categories/socks.jpg"
+    }
+  ],
+  "banners": [
+   
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@vestra.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "علی رضایی",
+      "email": "ali@test.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "مریم احمدی",
+      "email": "maryam@test.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "name": "سارا محمدی",
+      "email": "sara@test.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "name": "رضا کریمی",
+      "email": "reza@test.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 2,
+      "rating": 5,
+      "comment": "کیفیت عالی"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "userId": 3,
+      "rating": 4,
+      "comment": "خوب بود"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "total": 2450000,
+      "status": "delivered"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "total": 1890000,
+      "status": "processing"
+    }
+  ],
+  "wishlist": [],
+  "cart": []
+}
