@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import {
   FiHeart,
   FiShoppingCart,
-  FiUser,
+  FiUser, 
   FiSearch,
   FiMenu,
 } from "react-icons/fi";

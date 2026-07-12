@@ -38,7 +38,7 @@ function HeroSlider() {
               <div className="overflow-hidden rounded-3xl">
                 <img
                   src={slide.image}
-                  alt=""
+                  alt={slide.alt}
                   className="
                     h-[260px]
                     w-full

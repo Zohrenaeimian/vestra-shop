@@ -69,7 +69,7 @@ function CategoryFilter() {
           <button
             key={category.value}
             onClick={() => changeCategory(category.value)}
-            className={`block ${
+            className={`block cursor-pointer ${
               currentCategory === category.value
                 ? "font-bold text-yellow-500"
                 : "dark:text-white"

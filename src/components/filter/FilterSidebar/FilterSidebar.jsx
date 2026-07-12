@@ -1,8 +1,10 @@
+import SortBar from "../../sortBar/sortBar";
 import CategoryFilter from "../CategoryFilter/CategoryFilter";
 import GenderFilter from "../GenderFilter/GenderFilter";
+import PriceFilter from "../PriceFilter/PriceFilter";
 
 
-function FilterSidebar({setSelectedGender}) {
+function FilterSidebar() {
   return (
     <div>
       <h3 className="mb-6 text-xl font-bold dark:text-white">
@@ -14,15 +16,11 @@ function FilterSidebar({setSelectedGender}) {
         <CategoryFilter/>
         
 
-        <GenderFilter setSelectedGender={setSelectedGender} />
+        <GenderFilter/>
 
-        <p className="font-semibold dark:text-white">
-          قیمت
-        </p>
+        <PriceFilter/>
 
-        <p className="font-semibold dark:text-white">
-          مرتب سازی
-        </p>
+        
       </div>
     </div>
   );

@@ -44,24 +44,22 @@ function ProductCard({ product }) {
 
           <p className="text-yellow-500">⭐ {product.rating}</p>
 
-          <div className="font-bold dark:text-white">
-            <div className="mt-3">
-              {hasDiscount ? (
-                <>
-                  <p className="text-sm text-slate-500 line-through">
-                    {product.price.toLocaleString()} تومان
-                  </p>
-
-                  <p className="font-bold text-red-500">
-                    {finalPrice.toLocaleString()} تومان
-                  </p>
-                </>
-              ) : (
-                <p className="font-bold dark:text-white">
+          <div className="mt-3  min-h-[60px] ">
+            {hasDiscount ? (
+              <>
+                <p className="text-sm text-slate-500 line-through">
                   {product.price.toLocaleString()} تومان
                 </p>
-              )}
-            </div>
+
+                <p className="font-bold text-red-500">
+                  {finalPrice.toLocaleString()} تومان
+                </p>
+              </>
+            ) : (
+              <p className="font-bold dark:text-white">
+                {product.price.toLocaleString()} تومان
+              </p>
+            )}
           </div>
         </div>
       </div>
