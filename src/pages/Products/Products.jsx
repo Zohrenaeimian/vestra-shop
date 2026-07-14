@@ -83,16 +83,14 @@ function Products() {
   }
 
   return (
-    <div className="container mx-auto py-12">
+    <div className=" container mx-auto px-8 py-12">
       <div className="grid grid-cols-12 gap-8">
         <aside
           className="
     col-span-12
-    rounded-2xl
-    border
-    p-6
+  
     lg:col-span-3
-    dark:border-slate-700
+   
   "
         >
           <FilterSidebar />
