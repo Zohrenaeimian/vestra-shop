@@ -13,6 +13,7 @@ function Products() {
   const gender = searchParams.get("gender");
   const price = searchParams.get("price");
   const sort = searchParams.get("sort");
+  const search = searchParams.get("search");
   const categoryFilteredProducts = category
     ? products.filter((product) => product.category === category)
     : products;
@@ -36,7 +37,17 @@ function Products() {
       })
     : genderFilteredProducts;
 
-  const copiedProducts = [...priceFilteredProducts];
+  const searchFilteredProducts = search
+    ? priceFilteredProducts.filter((product) => {
+        const normalizedSearch = search.toLowerCase();
+        const searchWords = normalizedSearch.split(" ");
+        return searchWords.every((word) => {
+          return product.title.toLowerCase().includes(word);
+        });
+      })
+    : priceFilteredProducts;
+
+  const copiedProducts = [...searchFilteredProducts];
 
   const sortFilteredProducts = sort
     ? copiedProducts.sort((a, b) => {
@@ -57,7 +68,7 @@ function Products() {
             return 0;
         }
       })
-    : priceFilteredProducts;
+    : searchFilteredProducts;
 
   useEffect(() => {
     const fetchProducts = async () => {

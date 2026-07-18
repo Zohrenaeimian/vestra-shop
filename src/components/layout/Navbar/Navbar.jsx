@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import {
   FiHeart,
   FiShoppingCart,
-  FiUser, 
+  FiUser,
   FiSearch,
   FiMenu,
 } from "react-icons/fi";
@@ -10,6 +10,7 @@ import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import { useState } from "react";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import { useSelector } from "react-redux";
+import SearchModal from "../SearchModal/SearchModal";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,9 +39,12 @@ function Navbar() {
           <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 
           {/* Logo */}
-          <Link to="/" className="text-3xl font-bold text-slate-900">
+          <div className="flex gap-7 items-center">
+            <Link to="/" className="bg-linear-to-r from-[#0F172A] to-[#FBBF24] bg-clip-text text-transparent font-bold text-3xl ">
             VESTRA
           </Link>
+          <SearchModal/>
+          </div>
 
           {/* Desktop Menu */}
           <ul className="hidden items-center gap-8 md:flex">
@@ -77,9 +81,7 @@ function Navbar() {
 
           {/* Actions */}
           <div className="flex items-center gap-4 text-2xl">
-            <button>
-              <FiSearch />
-            </button>
+            
 
             <ThemeToggle />
 
