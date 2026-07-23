@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import {
   FiHeart,
   FiShoppingCart,
-  FiUser,
-  FiSearch,
   FiMenu,
 } from "react-icons/fi";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
@@ -11,11 +9,19 @@ import { useState } from "react";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import { useSelector } from "react-redux";
 import SearchModal from "../SearchModal/SearchModal";
+import UserMenu from "./UserMenu/UserMenu";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const cartItems = useSelector((state) => state.cart.cartItems);
   const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
+
+   const menuButtonClass = `p-2
+rounded-full
+transition
+hover:bg-slate-100
+dark:hover:bg-slate-800`
+
 
   return (
     <nav
@@ -85,7 +91,7 @@ function Navbar() {
 
             <ThemeToggle />
 
-            <Link to="/wishlist">
+            <Link to="/favorites">
               <FiHeart />
             </Link>
 
@@ -113,10 +119,7 @@ function Navbar() {
                 </span>
               )}
             </Link>
-
-            <Link to="/login">
-              <FiUser />
-            </Link>
+            <UserMenu />
           </div>
         </div>
       </div>

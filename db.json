@@ -3510,36 +3510,36 @@
     {
       "id": 1,
       "name": "Admin",
-      "email": "admin@vestra.com",
+      "phoneNumber": "09913511044",
       "password": "123456",
       "role": "admin"
     },
     {
       "id": 2,
       "name": "علی رضایی",
-      "email": "ali@test.com",
-      "password": "123456",
+      "phoneNumber": "09123456789",
+      "password": "654321",
       "role": "user"
     },
     {
       "id": 3,
       "name": "مریم احمدی",
-      "email": "maryam@test.com",
-      "password": "123456",
+      "phoneNumber": "09111111111",
+      "password": "122333",
       "role": "user"
     },
     {
       "id": 4,
       "name": "سارا محمدی",
-      "email": "sara@test.com",
+      "phoneNumber": "09136666666",
       "password": "123456",
       "role": "user"
     },
     {
       "id": 5,
       "name": "رضا کریمی",
-      "email": "reza@test.com",
-      "password": "123456",
+      "phoneNumber": "09910000000",
+      "password": "3334444",
       "role": "user"
     }
   ],
