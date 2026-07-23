@@ -7,6 +7,8 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import NotFound from "../pages/NotFound/NotFound";
 import MainLayout from "../layouts/MainLayout";
+import Profile from "../pages/Profile/Profile";
+import Favorites from "../pages/Favorites/Favorites";
 
 function AppRoutes() {
   return (
@@ -20,6 +22,8 @@ function AppRoutes() {
 
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/favorites" element={<Favorites />} />
 
       <Route path="*" element={<NotFound />} />
     </Routes>
