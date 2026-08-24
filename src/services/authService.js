@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:3000/users";
+const API = "https://6a87353970fbbd308f98cbeb.mockapi.io/api/v1/users";
 
 export const getUsers = () => {
   return axios.get(API);
