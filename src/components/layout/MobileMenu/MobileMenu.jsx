@@ -11,7 +11,7 @@ function MobileMenu({
     <>
       <div
         onClick={() => setIsMenuOpen(false)}
-        className="fixed inset-0 z-40 bg-black/50"
+        className="fixed inset-0 z-40 bg-olive/50"
       />
 
       <div
@@ -22,8 +22,9 @@ function MobileMenu({
           z-50
           h-screen
           w-72
-          bg-white
+          bg-surface
           p-6
+          text-foreground
           shadow-xl
         "
       >

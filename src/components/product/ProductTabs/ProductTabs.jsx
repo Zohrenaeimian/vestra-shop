@@ -15,7 +15,7 @@ function ProductTabs({ product }) {
           }
           className={`pb-4 ${
             activeTab === "description"
-              ? "border-b-2 border-yellow-500 font-bold"
+              ? "border-b-2 border-clementine font-bold"
               : ""
           }`}
         >
@@ -28,7 +28,7 @@ function ProductTabs({ product }) {
           }
           className={`pb-4 ${
             activeTab === "specification"
-              ? "border-b-2 border-yellow-500 font-bold"
+              ? "border-b-2 border-clementine font-bold"
               : ""
           }`}
         >
@@ -39,7 +39,7 @@ function ProductTabs({ product }) {
           onClick={() => setActiveTab("review")}
           className={`pb-4 ${
             activeTab === "review"
-              ? "border-b-2 border-yellow-500 font-bold"
+              ? "border-b-2 border-clementine font-bold"
               : ""
           }`}
         >
@@ -48,7 +48,7 @@ function ProductTabs({ product }) {
       </div>
 
       {activeTab === "description" && (
-        <p className="leading-8 text-slate-600 dark:text-slate-300">
+        <p className="leading-8 text-muted dark:text-oat">
           {product.description}
         </p>
       )}

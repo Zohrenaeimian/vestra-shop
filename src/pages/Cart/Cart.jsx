@@ -21,11 +21,11 @@ function Cart() {
   if (cartItems.length === 0) {
     return (
       <div className="container mx-auto py-20">
-        <h1 className="text-3xl font-bold dark:text-white">
+        <h1 className="text-3xl font-bold dark:text-cream">
           سبد خرید
         </h1>
 
-        <p className="mt-8 text-slate-500 dark:text-slate-300">
+        <p className="mt-8 text-muted dark:text-oat">
           سبد خرید شما خالی است.
         </p>
       </div>
@@ -34,7 +34,7 @@ function Cart() {
 
   return (
     <div className="container mx-auto py-20">
-      <h1 className="mb-10 text-3xl font-bold dark:text-white">
+      <h1 className="mb-10 text-3xl font-bold dark:text-cream">
         سبد خرید
       </h1>
 
@@ -48,8 +48,9 @@ function Cart() {
               gap-6
               rounded-2xl
               border
+              border-border
               p-5
-              dark:border-slate-700
+              dark:border-olive
             "
           >
             <img
@@ -59,19 +60,19 @@ function Cart() {
             />
 
             <div className="flex-1">
-              <h2 className="text-xl font-bold dark:text-white">
+              <h2 className="text-xl font-bold dark:text-cream">
                 {item.title}
               </h2>
 
-              <p className="mt-2 text-slate-500">
+              <p className="mt-2 text-muted">
                 رنگ: {item.color}
               </p>
 
-              <p className="text-slate-500">
+              <p className="text-muted">
                 سایز: {item.size}
               </p>
 
-              <p className="mt-3 font-bold dark:text-white">
+              <p className="mt-3 font-bold dark:text-cream">
                 {(item.price * item.quantity).toLocaleString()} تومان
               </p>
             </div>
@@ -96,14 +97,14 @@ function Cart() {
                   rounded-lg
                   border
                   text-xl
-                  dark:border-slate-700
-                  dark:text-white
+                  dark:border-olive
+                  dark:text-cream
                 "
               >
                 -
               </button>
 
-              <span className="text-lg font-bold dark:text-white">
+              <span className="text-lg font-bold dark:text-cream">
                 {item.quantity}
               </span>
 
@@ -126,8 +127,8 @@ function Cart() {
                   rounded-lg
                   border
                   text-xl
-                  dark:border-slate-700
-                  dark:text-white
+                  dark:border-olive
+                  dark:text-cream
                 "
               >
                 +
@@ -145,12 +146,12 @@ function Cart() {
                 }
                 className="
                   rounded-lg
-                  bg-red-500
+                  bg-terracotta
                   px-4
                   py-2
-                  text-white
+                  text-cream
                   transition
-                  hover:bg-red-600
+                  hover:bg-terracotta/90
                 "
               >
                 حذف
@@ -163,16 +164,17 @@ function Cart() {
           className="
             rounded-2xl
             border
+            border-border
             p-6
-            dark:border-slate-700
+            dark:border-olive
           "
         >
           <div className="flex items-center justify-between">
-            <h3 className="text-xl font-bold dark:text-white">
+            <h3 className="text-xl font-bold dark:text-cream">
               جمع کل
             </h3>
 
-            <span className="text-2xl font-bold text-yellow-500">
+            <span className="text-2xl font-bold text-clementine">
               {totalPrice.toLocaleString()} تومان
             </span>
           </div>

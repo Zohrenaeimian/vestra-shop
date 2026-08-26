@@ -29,11 +29,11 @@ gap-2
 transition-all
 duration-200
 
-hover:bg-slate-100
-hover:text-amber-500
+hover:bg-oat/40
+hover:text-clementine
 hover:-translate-x-0.5
 
-dark:hover:bg-slate-700
+dark:hover:bg-olive
 `;
 
   const showMenu = () => {
@@ -75,12 +75,12 @@ mt-3
 w-44
 
 rounded-2xl
-border border-slate-200
-bg-white/90
+border border-border
+bg-surface/90
 backdrop-blur-xl
 
 shadow-xl
-shadow-slate-200/40
+shadow-oat/40
 
 p-2
 flex flex-col

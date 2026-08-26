@@ -5,7 +5,7 @@ function ProductReview({ product }) {
         نظرات کاربران
       </h3>
 
-      <p className="text-slate-500">
+      <p className="text-muted">
         {product.reviewCount} نظر برای این محصول ثبت شده است.
       </p>
     </div>

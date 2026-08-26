@@ -54,7 +54,7 @@ function LoginForm() {
   };
 
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center px-6 py-12 lg:px-8">
+    <section className="flex min-h-screen flex-col items-center justify-center bg-background px-6 py-12 lg:px-8">
       <div
         className="
   mt-10
@@ -64,21 +64,21 @@ function LoginForm() {
   rounded-3xl
 
   border
-  border-slate-200/70
+  border-border/70
 
-  bg-white/70
+  bg-surface/70
   backdrop-blur-xl
 
   p-8
 
   shadow-xl
-  shadow-amber-200/20
+  shadow-clementine/20
 
-  dark:border-slate-700
-  dark:bg-slate-800/60
+  dark:border-olive
+  dark:bg-olive/60
 "
       >
-        <h2 className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
+        <h2 className="text-center text-2xl/9 font-bold tracking-tight text-foreground">
           ورود به حساب کاربری
         </h2>
 
@@ -86,7 +86,7 @@ function LoginForm() {
           <div>
             <label
               htmlFor="phoneNumber"
-              className="block text-sm/6 font-medium text-gray-900"
+              className="block text-sm/6 font-medium text-foreground"
             >
               شماره موبایل :
             </label>
@@ -100,7 +100,7 @@ function LoginForm() {
                 placeholder="شماره موبایل خود را وارد کنید"
                 value={phoneNumber}
                 onChange={(e) => setPhoneNumber(e.target.value)}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-right text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                className="block w-full rounded-md bg-surface px-3 py-1.5 text-base text-right text-foreground outline-1 -outline-offset-1 outline-border placeholder:text-muted focus:outline-2 focus:-outline-offset-2 focus:outline-clementine sm:text-sm/6"
               />
             </div>
           </div>
@@ -109,14 +109,14 @@ function LoginForm() {
             <div className="flex items-center justify-between">
               <label
                 htmlFor="password"
-                className="block text-sm/6 font-medium text-gray-900"
+                className="block text-sm/6 font-medium text-foreground"
               >
                 رمز عبور :
               </label>
               <div className="text-sm">
                 <a
                   href="#"
-                  className="font-semibold text-[#001845] hover:text-[#001845]/60"
+                  className="font-semibold text-olive hover:text-olive/60"
                 >
                   رمز عبور خود را فراموش کردید؟
                 </a>
@@ -132,7 +132,7 @@ function LoginForm() {
                 placeholder="رمز عبور خود را وارد کنید"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                className="block w-full rounded-md bg-surface px-3 py-1.5 text-base text-foreground outline-1 -outline-offset-1 outline-border placeholder:text-muted focus:outline-2 focus:-outline-offset-2 focus:outline-clementine sm:text-sm/6"
               />
 
               <EyeIcon
@@ -146,18 +146,18 @@ function LoginForm() {
           <div>
             <button
               type="submit"
-              className="flex w-full justify-center rounded-md bg-[#ffe747] px-3 py-1.5 text-sm/6 font-semibold text-black shadow-xs hover:bg-[#ffe747]/80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="flex w-full justify-center rounded-md bg-clementine px-3 py-1.5 text-sm/6 font-semibold text-cream shadow-xs hover:bg-clementine/80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clementine"
             >
               ورود
             </button>
           </div>
         </form>
 
-        <p className="mt-10 text-center text-sm/6 text-gray-500">
+        <p className="mt-10 text-center text-sm/6 text-muted">
           حساب کاربری ندارید؟
           <Link to={"/register"}
             href="#"
-            className="pr-1 font-semibold text-indigo-600 hover:text-indigo-500"
+            className="pr-1 font-semibold text-olive hover:text-clementine"
           >
             ثبت نام
           </Link>

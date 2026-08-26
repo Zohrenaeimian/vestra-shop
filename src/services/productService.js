@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://6a87353970fbbd308f98cbeb.mockapi.io/api/v1/products";
+const API = "/api/products";
 
 export const getProducts = () => {
   return axios.get(API);
@@ -11,5 +11,7 @@ export const getProductById = (id) => {
 };
 
 export const getProductsByCategory = (category) => {
-  return axios.get(`${API}?category=${category}`);
+  return axios.get(API, {
+    params: { category },
+  });
 };

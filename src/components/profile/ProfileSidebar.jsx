@@ -76,14 +76,14 @@ py-3
 
 rounded-2xl
 
-text-slate-700
+text-foreground
 font-medium
 
 transition-all
 duration-300
 
-hover:bg-slate-50
-hover:text-[#D4AF37]
+hover:bg-cream
+hover:text-clementine
 `;
 
   const sectionTitleClass = `
@@ -93,27 +93,27 @@ text-lg
 
 font-bold
 
-text-slate-400
+text-muted
 `;
 
   const iconClass = `
   text-xl
 
-  text-slate-500
+  text-muted
 
   transition-all
   duration-300
 
-  group-hover:text-[#D4AF37]
+  group-hover:text-clementine
   `;
 
   const activeClass = `
-bg-[#FFF8DC]
+bg-sage/30
 
-text-[#D4AF37]
+text-clementine
 
 border
-border-[#F4E4A6]
+border-oat
 `;
 
   const logoutClass = `
@@ -130,12 +130,12 @@ py-3
 
 rounded-2xl
 
-text-red-500
+text-terracotta
 
 transition-all
 duration-300
 
-hover:bg-red-50
+hover:bg-terracotta/10
 `;
 
   return (
@@ -150,8 +150,8 @@ hover:bg-red-50
 
     rounded-3xl
     border
-    border-slate-200
-    bg-white
+    border-border
+    bg-surface
     shadow-lg
 
     p-6
@@ -164,7 +164,7 @@ gap-3
 pb-5
 
 border-b
-border-slate-100"
+border-border"
           >
             <div
               className="
@@ -175,7 +175,7 @@ border-slate-100"
   pb-6
 
   border-b
-  border-slate-100
+  border-border
 "
             ></div>
             <div className="">

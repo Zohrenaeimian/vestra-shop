@@ -15,38 +15,38 @@ function ProductInfo({ product }) {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-4xl font-bold dark:text-white">{product.title}</h1>
+      <h1 className="text-4xl font-bold dark:text-cream">{product.title}</h1>
 
       <div className="flex items-center gap-2">
-        <span className="text-yellow-500">⭐ {product.rating}</span>
+        <span className="text-clementine">⭐ {product.rating}</span>
 
-        <span className="text-slate-500">({product.reviewCount} نظر)</span>
+        <span className="text-muted">({product.reviewCount} نظر)</span>
       </div>
 
-      <p className="text-slate-600 dark:text-slate-300">
+      <p className="text-muted dark:text-oat">
         {product.description}
       </p>
 
       <div>
         {hasDiscount ? (
           <>
-            <p className="text-lg text-slate-400 line-through">
+            <p className="text-lg text-muted line-through">
               {product.oldPrice.toLocaleString()} تومان
             </p>
 
-            <p className="text-3xl font-bold text-red-500">
+            <p className="text-3xl font-bold text-terracotta">
               {product.price.toLocaleString()} تومان
             </p>
           </>
         ) : (
-          <p className="text-3xl font-bold dark:text-white">
+          <p className="text-3xl font-bold dark:text-cream">
             {product.price.toLocaleString()} تومان
           </p>
         )}
       </div>
 
       <div className="space-y-3">
-        <h3 className="font-bold dark:text-white">رنگ:</h3>
+        <h3 className="font-bold dark:text-cream">رنگ:</h3>
 
         <div className="flex gap-3">
           {product.colors.map((color) => (
@@ -61,7 +61,7 @@ function ProductInfo({ product }) {
           transition
           ${
             selectedColor === color
-              ? "border-black dark:border-white"
+              ? "border-olive dark:border-cream"
               : "border-transparent"
           }
         `}
@@ -74,7 +74,7 @@ function ProductInfo({ product }) {
       </div>
 
       <div className="space-y-3">
-        <h3 className="font-bold dark:text-white">سایز:</h3>
+        <h3 className="font-bold dark:text-cream">سایز:</h3>
 
         <div className="flex gap-3">
           {product.sizes.map((size) => (
@@ -89,8 +89,8 @@ function ProductInfo({ product }) {
           transition
           ${
             selectedSize === size
-              ? "bg-black text-white dark:bg-white dark:text-black"
-              : "dark:border-slate-700 dark:text-white"
+              ? "bg-olive text-cream dark:bg-cream dark:text-olive"
+              : "dark:border-olive dark:text-cream"
           }
         `}
             >
@@ -100,7 +100,7 @@ function ProductInfo({ product }) {
         </div>
       </div>
 
-      <p className="text-slate-500 dark:text-slate-300">
+      <p className="text-muted dark:text-oat">
         موجودی:
         <span className="mr-2 font-bold">{product.stock} عدد</span>
       </p>
@@ -118,11 +118,12 @@ function ProductInfo({ product }) {
         className="
     w-full
     rounded-xl
-    bg-yellow-400
+    bg-clementine
     py-4
     font-bold
+    text-cream
     transition
-    hover:bg-yellow-500
+    hover:bg-terracotta
   "
       >
         افزودن به سبد خرید

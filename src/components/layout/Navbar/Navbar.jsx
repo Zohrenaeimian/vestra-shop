@@ -19,17 +19,18 @@ function Navbar() {
    const menuButtonClass = `p-2
 rounded-full
 transition
-hover:bg-slate-100
-dark:hover:bg-slate-800`
+hover:bg-oat/40
+dark:hover:bg-olive`
 
 
   return (
     <nav
       className="
       border-b
-     bg-white
-     dark:bg-slate-900
-     dark:border-slate-700
+      border-border
+     bg-surface
+     dark:bg-olive
+     dark:border-olive
   "
     >
       <div className="container mx-auto">
@@ -46,7 +47,7 @@ dark:hover:bg-slate-800`
 
           {/* Logo */}
           <div className="flex gap-7 items-center">
-            <Link to="/" className="bg-linear-to-r from-[#0F172A] to-[#FBBF24] bg-clip-text text-transparent font-bold text-3xl ">
+            <Link to="/" className="bg-gradient-to-l from-olive to-clementine bg-clip-text text-transparent font-bold text-3xl ">
             VESTRA
           </Link>
           <SearchModal/>
@@ -55,13 +56,13 @@ dark:hover:bg-slate-800`
           {/* Desktop Menu */}
           <ul className="hidden items-center gap-8 md:flex">
             <li>
-              <Link to="/" className="transition hover:text-yellow-500">
+              <Link to="/" className="transition hover:text-clementine">
                 خانه
               </Link>
             </li>
 
             <li>
-              <Link to="/products" className="transition hover:text-yellow-500">
+              <Link to="/products" className="transition hover:text-clementine">
                 محصولات
               </Link>
             </li>
@@ -69,7 +70,7 @@ dark:hover:bg-slate-800`
             <li>
               <Link
                 to="/products?gender=women"
-                className="transition hover:text-yellow-500"
+                className="transition hover:text-clementine"
               >
                 زنانه
               </Link>
@@ -78,7 +79,7 @@ dark:hover:bg-slate-800`
             <li>
               <Link
                 to="/products?gender=men"
-                className="transition hover:text-yellow-500"
+                className="transition hover:text-clementine"
               >
                 مردانه
               </Link>
@@ -110,9 +111,9 @@ dark:hover:bg-slate-800`
         items-center
         justify-center
         rounded-full
-        bg-red-500
+        bg-terracotta
         text-xs
-        text-white
+        text-cream
       "
                 >
                   {cartCount}

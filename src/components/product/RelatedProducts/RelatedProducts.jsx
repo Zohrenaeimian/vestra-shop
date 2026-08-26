@@ -33,7 +33,7 @@ function RelatedProducts({ product }) {
 
   return (
     <section className="mt-24">
-      <h2 className="mb-8 text-3xl font-bold dark:text-white">
+      <h2 className="mb-8 text-3xl font-bold dark:text-cream">
         محصولات مشابه
       </h2>
 

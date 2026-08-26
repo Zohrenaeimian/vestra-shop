@@ -30,11 +30,11 @@ function WomenCollection() {
   if (loading) {
     return (
       <section className="mt-16">
-        <h2 className="mb-8 text-3xl font-bold dark:text-white">
+        <h2 className="mb-8 text-3xl font-bold dark:text-cream">
            کالکشن زنانه
         </h2>
 
-        <p className="dark:text-white">
+        <p className="dark:text-cream">
           در حال بارگذاری...
         </p>
       </section>
@@ -48,7 +48,7 @@ function WomenCollection() {
 
         <Link
           to="/products"
-          className="text-sm text-slate-500 hover:text-yellow-500"
+          className="text-sm text-muted hover:text-clementine"
         >
           مشاهده همه
         </Link>

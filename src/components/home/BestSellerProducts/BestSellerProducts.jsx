@@ -28,11 +28,11 @@ function BestSellerProducts() {
   if (loading) {
     return (
       <section className="mt-16">
-        <h2 className="mb-8 text-3xl font-bold dark:text-white">
+        <h2 className="mb-8 text-3xl font-bold dark:text-cream">
           پرفروش ترین ها
         </h2>
 
-        <p className="dark:text-white">در حال بارگذاری...</p>
+        <p className="dark:text-cream">در حال بارگذاری...</p>
       </section>
     );
   }
@@ -44,7 +44,7 @@ function BestSellerProducts() {
 
         <Link
           to="/products"
-          className="text-sm text-slate-500 hover:text-yellow-500"
+          className="text-sm text-muted hover:text-clementine"
         >
           مشاهده همه
         </Link>

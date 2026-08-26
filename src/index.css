@@ -7,7 +7,24 @@
   src: url("./assets/fonts/Vazirmatn-Regular.ttf");
 }
 
+@theme {
+  --color-clementine: #e07a1f;
+  --color-olive: #435f3a;
+  --color-sage: #a3b18a;
+  --color-terracotta: #a84f2a;
+  --color-oat: #d7c3a1;
+  --color-cream: #f6f2e8;
 
+  --color-background: var(--color-cream);
+  --color-surface: #fffcf7;
+  --color-foreground: var(--color-olive);
+  --color-muted: #6f7d5f;
+  --color-primary: var(--color-clementine);
+  --color-primary-dark: var(--color-olive);
+  --color-accent: var(--color-sage);
+  --color-danger: var(--color-terracotta);
+  --color-border: var(--color-oat);
+}
 
 body {
   font-family: "Vazirmatn";
@@ -18,8 +35,9 @@ body {
   width: 25px !important;
   height: 25px !important;
   border-radius: 9px;
-  color: #f1f1f1 !important;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  color: var(--color-cream) !important;
+  background-color: var(--color-olive);
+  box-shadow: 0 5px 20px rgba(67, 95, 58, 0.2);
 }
 
 .swiper-button-next::after,
@@ -28,12 +46,10 @@ body {
   font-weight: bold;
 }
 
-
 .swiper-button-next {
   right: 25px !important;
   left: auto !important;
 }
-
 
 .swiper-button-prev {
   left: 25px !important;

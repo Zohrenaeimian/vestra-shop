@@ -11,7 +11,7 @@ function ProductCard({ product }) {
     <Link to={`/products/${product.id}`}>
       <div
         className="relative overflow-hidden rounded-t-3xl
-        rounded-3xl  bg-white shadow  transition  duration-300  hover:-translate-y-2    hover:shadow-xl dark:bg-slate-800 "
+        rounded-3xl  bg-surface shadow  transition  duration-300  hover:-translate-y-2    hover:shadow-xl dark:bg-olive "
       >
         {hasDiscount && (
           <span
@@ -21,12 +21,12 @@ function ProductCard({ product }) {
         top-3
         z-10
         rounded-full
-        bg-red-500
+        bg-terracotta
         px-3
         py-1
         text-sm
         font-bold
-        text-white
+        text-cream
       "
           >
             %{product.discount}
@@ -40,23 +40,23 @@ function ProductCard({ product }) {
         />
 
         <div className="space-y-3 p-5">
-          <h3 className="font-bold dark:text-white">{product.title}</h3>
+          <h3 className="font-bold dark:text-cream">{product.title}</h3>
 
-          <p className="text-yellow-500">⭐ {product.rating}</p>
+          <p className="text-clementine">⭐ {product.rating}</p>
 
           <div className="mt-3  min-h-15 ">
             {hasDiscount ? (
               <>
-                <p className="text-sm text-slate-500 line-through">
+                <p className="text-sm text-muted line-through">
                   {product.price.toLocaleString()} تومان
                 </p>
 
-                <p className="font-bold text-red-500">
+                <p className="font-bold text-terracotta">
                   {finalPrice.toLocaleString()} تومان
                 </p>
               </>
             ) : (
-              <p className="font-bold dark:text-white">
+              <p className="font-bold dark:text-cream">
                 {product.price.toLocaleString()} تومان
               </p>
             )}

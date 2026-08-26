@@ -88,7 +88,7 @@ function Products() {
   if (loading) {
     return (
       <div className="container mx-auto py-20">
-        <p className="dark:text-white">در حال بارگذاری...</p>
+        <p className="dark:text-cream">در حال بارگذاری...</p>
       </div>
     );
   }
@@ -113,7 +113,7 @@ function Products() {
             <ProductGrid products={sortFilteredProducts} />
           ) : (
             <div className="rounded-2xl border p-10 text-center">
-              <p className="text-slate-500 dark:text-slate-300">
+              <p className="text-muted dark:text-oat">
                 محصولی یافت نشد.
               </p>
             </div>

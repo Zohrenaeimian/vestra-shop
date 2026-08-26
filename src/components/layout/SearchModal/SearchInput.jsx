@@ -9,15 +9,15 @@ function SearchInput({ value, onChange, onFocus, onBlur, isOpen, onToggle }) {
   rounded-full
   overflow-hidden
   border
-  border-slate-300
-  bg-white
+  border-border
+  bg-surface
   transition-all
   duration-300
-  focus-within:border-yellow-400
+  focus-within:border-clementine
   focus-within:ring-4
-  focus-within:ring-yellow-300/20
-  dark:bg-slate-800
-  dark:border-slate-700 
+  focus-within:ring-clementine/20
+  dark:bg-olive
+  dark:border-olive 
   ${ isOpen ? "w-64 " : "w-12"}
   `}
  
@@ -33,11 +33,12 @@ function SearchInput({ value, onChange, onFocus, onBlur, isOpen, onToggle }) {
   items-center
   justify-center
 
-  bg-yellow-200
-  text-slate-900
+  bg-sage
+  text-olive
 
   transition
-  hover:bg-yellow-300
+  hover:bg-clementine
+  hover:text-cream
   cursor-pointer
 "
       >
@@ -53,8 +54,8 @@ function SearchInput({ value, onChange, onFocus, onBlur, isOpen, onToggle }) {
  outline-none
  transition-all
  duration-300
- placeholder:text-slate-400
- dark:placeholder:text-slate-500
+ placeholder:text-muted
+ dark:placeholder:text-oat
  ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}
 `}
         type="text"

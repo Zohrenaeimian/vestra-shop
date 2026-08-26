@@ -10,10 +10,10 @@ function MainLayout() {
     flex
     min-h-screen
     flex-col
-    bg-gray-100
-    text-slate-900
-    dark:bg-slate-950
-    dark:text-white
+    bg-background
+    text-foreground
+    dark:bg-olive
+    dark:text-cream
   "
     >
       <Header />

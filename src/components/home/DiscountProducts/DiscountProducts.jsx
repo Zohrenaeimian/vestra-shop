@@ -29,7 +29,7 @@ function DiscountProducts() {
 
   if (loading) {
     return (
-      <section className="mt-20 bg-yellow-300 py-16">
+      <section className="mt-20 bg-sage py-16">
         <div className="container mx-auto px-4">
           <h2 className="mb-8 text-3xl font-bold">
             تخفیف‌های شگفت‌انگیز
@@ -42,16 +42,16 @@ function DiscountProducts() {
   }
 
   return (
-    <section className="mt-20 bg-[#ffe747] py-16">
+    <section className="mt-20 bg-clementine py-16">
       <div className="container mx-auto px-4">
         <div className="mb-8 flex items-center justify-between">
-          <h2 className="text-3xl font-bold">
+          <h2 className="text-3xl font-bold text-cream">
             تخفیف‌های شگفت‌انگیز
           </h2>
 
           <Link
             to="/products"
-            className="text-sm font-medium hover:text-slate-700"
+            className="text-sm font-medium text-cream hover:text-olive"
           >
             مشاهده همه
           </Link>

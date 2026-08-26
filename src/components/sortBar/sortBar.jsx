@@ -37,7 +37,7 @@ function SortBar() {
 
   return (
     <div>
-      <h4 className="mb-4 font-bold dark:text-white">مرتب سازی :</h4>
+      <h4 className="mb-4 font-bold dark:text-cream">مرتب سازی :</h4>
 
       <div className="flex flex-wrap gap-3 mb-8 ">
         {sorts.map((sort) => (
@@ -58,8 +58,8 @@ function SortBar() {
               
      ${
        currentSort === sort.value
-         ? "bg-yellow-400 text-black border-yellow-400 shadow-lg"
-         : "bg-white/40 dark:bg-slate-800/40 border-slate-300 dark:border-slate-700 hover:bg-yellow-100 dark:hover:bg-slate-700"
+         ? "bg-clementine text-cream border-clementine shadow-lg"
+         : "bg-surface/40 dark:bg-olive/40 border-border dark:border-olive hover:bg-sage/40 dark:hover:bg-olive"
      }
      `}
           >

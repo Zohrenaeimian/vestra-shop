@@ -16,8 +16,8 @@ function Home() {
         max-w-[1200px]
         px-4
         py-8
-        text-slate-900
-        dark:text-white
+        text-foreground
+        dark:text-cream
       ">
         <HeroSlider />
         <CategoriesSection />
@@ -29,8 +29,8 @@ function Home() {
         max-w-[1200px]
         px-4
         py-8
-        text-slate-900
-        dark:text-white
+        text-foreground
+        dark:text-cream
       ">
         <NewestProducts />
         <WomenCollection />
@@ -42,8 +42,8 @@ function Home() {
         max-w-[1200px]
         px-4
         py-8
-        text-slate-900
-        dark:text-white
+        text-foreground
+        dark:text-cream
       ">
         <BestSellerProducts />
         <WhyUs />

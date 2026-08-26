@@ -77,7 +77,7 @@ function FilterSidebar() {
   ];
   return (
     <div>
-      <h3 className="mb-6 text-xl font-bold dark:text-white ">فیلترها</h3>
+      <h3 className="mb-6 text-xl font-bold dark:text-cream ">فیلترها</h3>
 
       <div className="space-y-4 ">
         <FilterAccordion
