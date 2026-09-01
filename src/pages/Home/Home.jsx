@@ -10,46 +10,17 @@ import Newsletter from "../../components/home/Newsletter/Newsletter";
 
 function Home() {
   return (
-    <>
-      <div  className="
-        mx-auto
-        max-w-[1200px]
-        px-4
-        py-8
-        text-foreground
-        dark:text-cream
-      ">
-        <HeroSlider />
-        <CategoriesSection />
-      </div>
-
+    <div className="space-y-10 text-foreground dark:text-cream">
+      <HeroSlider />
+      <CategoriesSection />
       <DiscountProducts />
-      <div  className="
-        mx-auto
-        max-w-[1200px]
-        px-4
-        py-8
-        text-foreground
-        dark:text-cream
-      ">
-        <NewestProducts />
-        <WomenCollection />
-        <MenCollection />
-      </div>
-
-      <div  className="
-        mx-auto
-        max-w-[1200px]
-        px-4
-        py-8
-        text-foreground
-        dark:text-cream
-      ">
-        <BestSellerProducts />
-        <WhyUs />
-        <Newsletter />
-      </div>
-    </>
+      <NewestProducts />
+      <WomenCollection />
+      <MenCollection />
+      <BestSellerProducts />
+      <WhyUs />
+      <Newsletter />
+    </div>
   );
 }
 

@@ -29,36 +29,27 @@ function DiscountProducts() {
 
   if (loading) {
     return (
-      <section className="mt-20 bg-sage py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="mb-8 text-3xl font-bold">
-            تخفیف‌های شگفت‌انگیز
-          </h2>
-
-          <p>در حال بارگذاری...</p>
-        </div>
+      <section className="rounded-3xl bg-clementine px-5 py-8 text-cream">
+        <h2 className="mb-4 text-2xl font-bold">تخفیف‌های شگفت‌انگیز</h2>
+        <p>در حال بارگذاری...</p>
       </section>
     );
   }
 
   return (
-    <section className="mt-20 bg-clementine py-16">
-      <div className="container mx-auto px-4">
-        <div className="mb-8 flex items-center justify-between">
-          <h2 className="text-3xl font-bold text-cream">
-            تخفیف‌های شگفت‌انگیز
-          </h2>
+    <section className="rounded-3xl bg-clementine px-5 py-8 text-cream md:px-8">
+      <div className="mb-5 flex items-center justify-between">
+        <h2 className="text-2xl font-bold">تخفیف‌های شگفت‌انگیز</h2>
 
-          <Link
-            to="/products"
-            className="text-sm font-medium text-cream hover:text-olive"
-          >
-            مشاهده همه
-          </Link>
-        </div>
-
-        <ProductSlider products={products} />
+        <Link
+          to="/products"
+          className="text-sm font-medium text-cream/90 transition hover:text-olive"
+        >
+          مشاهده همه
+        </Link>
       </div>
+
+      <ProductSlider products={products} />
     </section>
   );
 }

@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Autoplay,
-  Pagination,
-  Navigation,
-} from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 import sliderData from "./sliderData";
 
@@ -16,21 +12,15 @@ function HeroSlider() {
   return (
     <section>
       <Swiper
-        modules={[
-          Autoplay,
-          Pagination,
-          Navigation,
-        ]}
+        modules={[Autoplay, Pagination, Navigation]}
         navigation
-        pagination={{
-          clickable: true,
-        }}
+        pagination={{ clickable: true }}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
         }}
         loop
-        className="rounded-3xl"
+        className="overflow-hidden rounded-3xl"
       >
         {sliderData.map((slide) => (
           <SwiperSlide key={slide.id}>
@@ -39,13 +29,7 @@ function HeroSlider() {
                 <img
                   src={slide.image}
                   alt={slide.alt}
-                  className="
-                    h-[260px]
-                    w-full
-                    object-cover
-                    md:h-[360px]
-                    lg:h-[430px]
-                  "
+                  className="h-[260px] w-full object-cover md:h-[340px] lg:h-[400px]"
                 />
               </div>
             </Link>

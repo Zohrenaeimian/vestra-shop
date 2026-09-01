@@ -13,7 +13,7 @@ function WomenCollection() {
         const response = await getProducts();
 
         const womenCollection = response.data.filter(
-          (product) => product.gender==='women'
+          (product) => product.gender === "women"
         );
 
         setProducts(womenCollection);
@@ -29,32 +29,25 @@ function WomenCollection() {
 
   if (loading) {
     return (
-      <section className="mt-16">
-        <h2 className="mb-8 text-3xl font-bold dark:text-cream">
-           کالکشن زنانه
-        </h2>
-
-        <p className="dark:text-cream">
-          در حال بارگذاری...
-        </p>
+      <section className="rounded-3xl bg-sage/40 px-5 py-8 md:px-8">
+        <h2 className="mb-4 text-2xl font-bold text-olive">کالکشن زنانه</h2>
+        <p className="text-muted">در حال بارگذاری...</p>
       </section>
     );
   }
 
   return (
-    <section className="mt-16">
-      <div className="mb-8 flex items-center justify-between">
-        <h2 className="text-2xl font-bold">  کالکشن زنانه</h2>
+    <section className="rounded-3xl bg-sage/40 px-5 py-8 md:px-8">
+      <div className="mb-5 flex items-center justify-between">
+        <h2 className="text-2xl font-bold text-olive">کالکشن زنانه</h2>
 
         <Link
-          to="/products"
-          className="text-sm text-muted hover:text-clementine"
+          to="/products?gender=women"
+          className="rounded-full bg-olive px-4 py-2 text-sm font-medium text-cream transition hover:bg-clementine"
         >
           مشاهده همه
         </Link>
       </div>
-        
-
 
       <ProductSlider products={products} />
     </section>

@@ -8,28 +8,25 @@ const sliderData = [
     id: 1,
     image: shippingImg,
     link: "/products",
-    alt:"Free Shipping"
+    alt: "Free Shipping",
   },
-
   {
     id: 2,
     image: womenImg,
     link: "/products?gender=women",
-    alt:"Women's Collection"
+    alt: "Women's Collection",
   },
-
   {
     id: 3,
     image: menImg,
     link: "/products?gender=men",
-    alt:"Men's Collection"
+    alt: "Men's Collection",
   },
-
   {
     id: 4,
     image: bagsImg,
     link: "/products?category=bag",
-    alt:"Bag's Collection"
+    alt: "Bag's Collection",
   },
 ];
 

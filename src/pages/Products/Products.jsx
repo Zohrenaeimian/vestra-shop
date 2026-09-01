@@ -87,14 +87,14 @@ function Products() {
 
   if (loading) {
     return (
-      <div className="container mx-auto py-20">
+      <div className="py-12">
         <p className="dark:text-cream">در حال بارگذاری...</p>
       </div>
     );
   }
 
   return (
-    <div className=" container mx-auto px-8 py-12">
+    <div className="py-4">
       <div className="grid grid-cols-12 gap-8">
         <aside
           className="

@@ -20,7 +20,7 @@ function Cart() {
 
   if (cartItems.length === 0) {
     return (
-      <div className="container mx-auto py-20">
+      <div className="py-12">
         <h1 className="text-3xl font-bold dark:text-cream">
           سبد خرید
         </h1>
@@ -33,7 +33,7 @@ function Cart() {
   }
 
   return (
-    <div className="container mx-auto py-20">
+    <div className="py-8">
       <h1 className="mb-10 text-3xl font-bold dark:text-cream">
         سبد خرید
       </h1>

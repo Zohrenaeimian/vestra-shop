@@ -29,8 +29,8 @@ function NewestProducts() {
 
   if (loading) {
     return (
-      <section className="mt-16">
-        <h2 className="mb-8 text-3xl font-bold dark:text-cream">
+      <section>
+        <h2 className="mb-4 text-2xl font-bold dark:text-cream">
           جدیدترین محصولات
         </h2>
 
@@ -42,8 +42,8 @@ function NewestProducts() {
   }
 
   return (
-    <section className="mt-16">
-      <div className="mb-8 flex items-center justify-between">
+    <section className="mt-4">
+      <div className="mb-5 flex items-center justify-between">
         <h2 className="text-2xl font-bold"> جدیدترین محصولات</h2>
 
         <Link
@@ -53,8 +53,6 @@ function NewestProducts() {
           مشاهده همه
         </Link>
       </div>
-        
-
 
       <ProductSlider products={products} />
     </section>

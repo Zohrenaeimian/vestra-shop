@@ -30,22 +30,22 @@ function ProductDetails() {
   }, [id]);
 
   if (loading) {
-    return <div className="container mx-auto py-20">در حال بارگذاری...</div>;
+    return <div className="py-12">در حال بارگذاری...</div>;
   }
 
   if (!product) {
-    return <div className="container mx-auto py-20">محصول پیدا نشد.</div>;
+    return <div className="py-12">محصول پیدا نشد.</div>;
   }
 
   return (
-    <div className="container mx-auto px-4 py-20">
-      <div className="grid gap-20 lg:grid-cols-[1.1fr_0.9fr]">
+    <div className="py-8">
+      <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <ProductGallery product={product} />
 
         <ProductInfo product={product} />
       </div>
 
-      <div className="mt-24">
+      <div className="mt-16">
         <RelatedProducts product={product} />
         <ProductTabs product={product} />
       </div>

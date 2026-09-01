@@ -13,7 +13,7 @@ function MenCollection() {
         const response = await getProducts();
 
         const menCollection = response.data.filter(
-          (product) => product.gender==='men'
+          (product) => product.gender === "men"
         );
 
         setProducts(menCollection);
@@ -29,32 +29,25 @@ function MenCollection() {
 
   if (loading) {
     return (
-      <section className="mt-16">
-        <h2 className="mb-8 text-3xl font-bold dark:text-cream">
-           کالکشن مردانه
-        </h2>
-
-        <p className="dark:text-cream">
-          در حال بارگذاری...
-        </p>
+      <section className="rounded-3xl bg-olive px-5 py-8 text-cream md:px-8">
+        <h2 className="mb-4 text-2xl font-bold">کالکشن مردانه</h2>
+        <p className="text-oat">در حال بارگذاری...</p>
       </section>
     );
   }
 
   return (
-    <section className="mt-16">
-      <div className="mb-8 flex items-center justify-between">
-        <h2 className="text-2xl font-bold">  کالکشن مردانه</h2>
+    <section className="rounded-3xl bg-olive px-5 py-8 text-cream md:px-8">
+      <div className="mb-5 flex items-center justify-between">
+        <h2 className="text-2xl font-bold">کالکشن مردانه</h2>
 
         <Link
-          to="/products"
-          className="text-sm text-muted hover:text-clementine"
+          to="/products?gender=men"
+          className="rounded-full bg-clementine px-4 py-2 text-sm font-medium text-cream transition hover:bg-terracotta"
         >
           مشاهده همه
         </Link>
       </div>
-        
-
 
       <ProductSlider products={products} />
     </section>

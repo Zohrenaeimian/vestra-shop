@@ -30,14 +30,21 @@ body {
   font-family: "Vazirmatn";
 }
 
+.site-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
-  width: 25px !important;
-  height: 25px !important;
-  border-radius: 9px;
-  color: var(--color-cream) !important;
-  background-color: var(--color-olive);
-  box-shadow: 0 5px 20px rgba(67, 95, 58, 0.2);
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 9999px;
+  color: var(--color-olive) !important;
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .swiper-button-next::after,
@@ -47,11 +54,20 @@ body {
 }
 
 .swiper-button-next {
-  right: 25px !important;
+  right: 12px !important;
   left: auto !important;
 }
 
 .swiper-button-prev {
-  left: 25px !important;
+  left: 12px !important;
   right: auto !important;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-oat);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-clementine);
 }

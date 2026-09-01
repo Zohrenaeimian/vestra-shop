@@ -8,7 +8,7 @@ function Profile() {
     <>
       <Header />
       <Navbar />
-      <div className="max-w-350 mx-auto px-8 py-8">
+      <div className="site-container py-8">
         <div className="flex items-start gap-6">
           <ProfileSidebar />
 

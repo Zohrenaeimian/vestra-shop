@@ -33,8 +33,8 @@ dark:hover:bg-olive`
      dark:border-olive
   "
     >
-      <div className="container mx-auto">
-        <div className="flex h-20 items-center justify-between px-4">
+      <div className="site-container">
+        <div className="flex h-20 items-center justify-between">
           {/* Mobile Menu */}
           <button
             onClick={() => setIsMenuOpen(true)}

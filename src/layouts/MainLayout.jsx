@@ -21,7 +21,9 @@ function MainLayout() {
       <Navbar />
 
       <main className="flex-1">
-        <Outlet />
+        <div className="site-container py-8">
+          <Outlet />
+        </div>
       </main>
 
       <Footer />
