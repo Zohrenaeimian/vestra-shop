@@ -7,12 +7,36 @@
     <meta name="color-scheme" content="light" />
     <meta name="theme-color" content="#f6f2e8" />
     <title>vestra</title>
+    <style>
+      html {
+        color-scheme: only light;
+        background-color: #f6f2e8;
+      }
+      html.dark {
+        color-scheme: only dark;
+        background-color: #1a2418;
+      }
+      body {
+        background-color: #f6f2e8;
+        color: #435f3a;
+      }
+      html.dark body {
+        background-color: #1a2418;
+        color: #f6f2e8;
+      }
+    </style>
     <script>
       try {
         var isDark = localStorage.getItem("theme") === "dark";
         var root = document.documentElement;
         root.classList.toggle("dark", isDark);
-        root.style.colorScheme = isDark ? "dark" : "light";
+        root.style.colorScheme = isDark ? "only dark" : "only light";
+        document.body.style.backgroundColor = isDark ? "#1a2418" : "#f6f2e8";
+        document.body.style.color = isDark ? "#f6f2e8" : "#435f3a";
+        var themeColor = document.querySelector('meta[name="theme-color"]');
+        if (themeColor) {
+          themeColor.setAttribute("content", isDark ? "#1a2418" : "#f6f2e8");
+        }
       } catch (e) {}
     </script>
   </head>

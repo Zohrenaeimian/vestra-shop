@@ -27,12 +27,12 @@
 }
 
 html {
-  color-scheme: light;
+  color-scheme: only light;
   background-color: #f6f2e8;
 }
 
 html:not(.dark) {
-  color-scheme: light;
+  color-scheme: only light;
   --color-background: #f6f2e8;
   --color-surface: #fffcf7;
   --color-foreground: #435f3a;
@@ -41,13 +41,29 @@ html:not(.dark) {
 }
 
 html.dark {
-  color-scheme: dark;
+  color-scheme: only dark;
   background-color: #1a2418;
   --color-background: #1a2418;
   --color-surface: #243021;
   --color-foreground: #f6f2e8;
   --color-muted: #b5c0a8;
   --color-border: #3a4f36;
+}
+
+/* وقتی گوشی روی دارک مود است ولی سایت لایت — رنگ‌ها را اجباری نگه دار */
+@media (prefers-color-scheme: dark) {
+  html:not(.dark),
+  html:not(.dark) body,
+  html:not(.dark) #root {
+    color-scheme: only light !important;
+    background-color: #f6f2e8 !important;
+    color: #435f3a !important;
+    --color-background: #f6f2e8;
+    --color-surface: #fffcf7;
+    --color-foreground: #435f3a;
+    --color-muted: #6f7d5f;
+    --color-border: #d7c3a1;
+  }
 }
 
 body,
