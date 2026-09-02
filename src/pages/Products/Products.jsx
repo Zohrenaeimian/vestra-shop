@@ -18,6 +18,7 @@ function Products() {
   const maxPrice = Number(searchParams.get("maxPrice") || Infinity);
   const sort = searchParams.get("sort");
   const search = searchParams.get("search");
+  const brand = searchParams.get("brand");
 
   const sortFilteredProducts = useMemo(() => {
     const categoryFilteredProducts = category
@@ -28,7 +29,11 @@ function Products() {
       ? categoryFilteredProducts.filter((product) => product.gender === gender)
       : categoryFilteredProducts;
 
-    const priceFilteredProducts = genderFilteredProducts.filter((product) => {
+    const brandFilteredProducts = brand
+      ? genderFilteredProducts.filter((product) => product.brand === brand)
+      : genderFilteredProducts;
+
+    const priceFilteredProducts = brandFilteredProducts.filter((product) => {
       return product.price >= minPrice && product.price <= maxPrice;
     });
 
@@ -60,7 +65,7 @@ function Products() {
           return 0;
       }
     });
-  }, [products, category, gender, minPrice, maxPrice, search, sort]);
+  }, [products, category, gender, brand, minPrice, maxPrice, search, sort]);
 
   const totalPages = Math.max(
     1,
@@ -75,7 +80,7 @@ function Products() {
     return sortFilteredProducts.slice(startIndex, startIndex + ITEMS_PER_PAGE);
   }, [sortFilteredProducts, currentPage]);
 
-  const filterKey = `${category}-${gender}-${minPrice}-${maxPrice}-${sort}-${search}`;
+  const filterKey = `${category}-${gender}-${brand}-${minPrice}-${maxPrice}-${sort}-${search}`;
   const previousFilterKey = useRef(filterKey);
 
   useEffect(() => {

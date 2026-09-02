@@ -27,7 +27,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 38
+      "stock": 38,
+      "brand": "zara"
     },
     {
       "id": 2,
@@ -56,7 +57,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 29
+      "stock": 29,
+      "brand": "nike"
     },
     {
       "id": 3,
@@ -85,7 +87,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 22
+      "stock": 22,
+      "brand": "adidas"
     },
     {
       "id": 4,
@@ -114,7 +117,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 25
+      "stock": 25,
+      "brand": "hm"
     },
     {
       "id": 5,
@@ -143,7 +147,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 19
+      "stock": 19,
+      "brand": "mango"
     },
     {
       "id": 6,
@@ -172,7 +177,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 18
+      "stock": 18,
+      "brand": "puma"
     },
     {
       "id": 7,
@@ -201,7 +207,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 36
+      "stock": 36,
+      "brand": "levis"
     },
     {
       "id": 8,
@@ -230,7 +237,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 18
+      "stock": 18,
+      "brand": "bershka"
     },
     {
       "id": 9,
@@ -259,7 +267,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 10
+      "stock": 10,
+      "brand": "zara"
     },
     {
       "id": 10,
@@ -288,7 +297,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 24
+      "stock": 24,
+      "brand": "nike"
     },
     {
       "id": 11,
@@ -317,7 +327,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 39
+      "stock": 39,
+      "brand": "adidas"
     },
     {
       "id": 12,
@@ -346,7 +357,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 22
+      "stock": 22,
+      "brand": "hm"
     },
     {
       "id": 13,
@@ -375,7 +387,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 33
+      "stock": 33,
+      "brand": "mango"
     },
     {
       "id": 14,
@@ -404,7 +417,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 8
+      "stock": 8,
+      "brand": "puma"
     },
     {
       "id": 15,
@@ -433,7 +447,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 35
+      "stock": 35,
+      "brand": "levis"
     },
     {
       "id": 16,
@@ -462,7 +477,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 35
+      "stock": 35,
+      "brand": "bershka"
     },
     {
       "id": 17,
@@ -491,7 +507,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 16
+      "stock": 16,
+      "brand": "zara"
     },
     {
       "id": 18,
@@ -520,7 +537,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 4
+      "stock": 4,
+      "brand": "nike"
     },
     {
       "id": 19,
@@ -549,7 +567,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 35
+      "stock": 35,
+      "brand": "adidas"
     },
     {
       "id": 20,
@@ -578,7 +597,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 7
+      "stock": 7,
+      "brand": "hm"
     },
     {
       "id": 21,
@@ -607,7 +627,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 26
+      "stock": 26,
+      "brand": "mango"
     },
     {
       "id": 22,
@@ -636,7 +657,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 30
+      "stock": 30,
+      "brand": "puma"
     },
     {
       "id": 23,
@@ -665,7 +687,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 16
+      "stock": 16,
+      "brand": "levis"
     },
     {
       "id": 24,
@@ -694,7 +717,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 17
+      "stock": 17,
+      "brand": "bershka"
     },
     {
       "id": 25,
@@ -723,7 +747,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 4
+      "stock": 4,
+      "brand": "zara"
     },
     {
       "id": 26,
@@ -752,7 +777,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 4
+      "stock": 4,
+      "brand": "nike"
     },
     {
       "id": 27,
@@ -781,7 +807,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 40
+      "stock": 40,
+      "brand": "adidas"
     },
     {
       "id": 28,
@@ -810,7 +837,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 17
+      "stock": 17,
+      "brand": "hm"
     },
     {
       "id": 29,
@@ -839,7 +867,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 35
+      "stock": 35,
+      "brand": "mango"
     },
     {
       "id": 30,
@@ -868,7 +897,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 29
+      "stock": 29,
+      "brand": "puma"
     },
     {
       "id": 31,
@@ -897,7 +927,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 9
+      "stock": 9,
+      "brand": "levis"
     },
     {
       "id": 32,
@@ -926,7 +957,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 14
+      "stock": 14,
+      "brand": "bershka"
     },
     {
       "id": 33,
@@ -955,7 +987,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 3
+      "stock": 3,
+      "brand": "zara"
     },
     {
       "id": 34,
@@ -984,7 +1017,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 8
+      "stock": 8,
+      "brand": "nike"
     },
     {
       "id": 35,
@@ -1013,7 +1047,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 24
+      "stock": 24,
+      "brand": "adidas"
     },
     {
       "id": 36,
@@ -1042,7 +1077,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 16
+      "stock": 16,
+      "brand": "hm"
     },
     {
       "id": 37,
@@ -1071,7 +1107,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 18
+      "stock": 18,
+      "brand": "mango"
     },
     {
       "id": 38,
@@ -1100,7 +1137,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 20
+      "stock": 20,
+      "brand": "puma"
     },
     {
       "id": 39,
@@ -1129,7 +1167,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 23
+      "stock": 23,
+      "brand": "levis"
     },
     {
       "id": 40,
@@ -1158,7 +1197,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 38
+      "stock": 38,
+      "brand": "bershka"
     },
     {
       "id": 41,
@@ -1187,7 +1227,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 37
+      "stock": 37,
+      "brand": "zara"
     },
     {
       "id": 42,
@@ -1216,7 +1257,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 40
+      "stock": 40,
+      "brand": "nike"
     },
     {
       "id": 43,
@@ -1245,7 +1287,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 19
+      "stock": 19,
+      "brand": "adidas"
     },
     {
       "id": 44,
@@ -1274,7 +1317,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 36
+      "stock": 36,
+      "brand": "hm"
     },
     {
       "id": 45,
@@ -1303,7 +1347,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 33
+      "stock": 33,
+      "brand": "mango"
     },
     {
       "id": 46,
@@ -1332,7 +1377,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 13
+      "stock": 13,
+      "brand": "puma"
     },
     {
       "id": 47,
@@ -1361,7 +1407,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 32
+      "stock": 32,
+      "brand": "levis"
     },
     {
       "id": 48,
@@ -1390,7 +1437,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 34
+      "stock": 34,
+      "brand": "bershka"
     },
     {
       "id": 49,
@@ -1419,7 +1467,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 40
+      "stock": 40,
+      "brand": "zara"
     },
     {
       "id": 50,
@@ -1448,7 +1497,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 17
+      "stock": 17,
+      "brand": "nike"
     },
     {
       "id": 51,
@@ -1478,7 +1528,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 5
+      "stock": 5,
+      "brand": "adidas"
     },
     {
       "id": 52,
@@ -1508,7 +1559,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 10
+      "stock": 10,
+      "brand": "hm"
     },
     {
       "id": 53,
@@ -1538,7 +1590,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 25
+      "stock": 25,
+      "brand": "mango"
     },
     {
       "id": 54,
@@ -1568,7 +1621,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 25
+      "stock": 25,
+      "brand": "puma"
     },
     {
       "id": 55,
@@ -1598,7 +1652,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 32
+      "stock": 32,
+      "brand": "levis"
     },
     {
       "id": 56,
@@ -1628,7 +1683,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 26
+      "stock": 26,
+      "brand": "bershka"
     },
     {
       "id": 57,
@@ -1658,7 +1714,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 17
+      "stock": 17,
+      "brand": "zara"
     },
     {
       "id": 58,
@@ -1688,7 +1745,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 31
+      "stock": 31,
+      "brand": "nike"
     },
     {
       "id": 59,
@@ -1718,7 +1776,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 16
+      "stock": 16,
+      "brand": "adidas"
     },
     {
       "id": 60,
@@ -1748,7 +1807,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 17
+      "stock": 17,
+      "brand": "hm"
     },
     {
       "id": 61,
@@ -1778,7 +1838,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 37
+      "stock": 37,
+      "brand": "mango"
     },
     {
       "id": 62,
@@ -1808,7 +1869,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 20
+      "stock": 20,
+      "brand": "puma"
     },
     {
       "id": 63,
@@ -1838,7 +1900,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 5
+      "stock": 5,
+      "brand": "levis"
     },
     {
       "id": 64,
@@ -1868,7 +1931,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 10
+      "stock": 10,
+      "brand": "bershka"
     },
     {
       "id": 65,
@@ -1878,7 +1942,7 @@
       "price": 1800000,
       "oldPrice": 2000000,
       "discount": 10,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 37,
       "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
       "image": "/images/products/men-jeans.jpg",
@@ -1898,7 +1962,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 16
+      "stock": 16,
+      "brand": "zara"
     },
     {
       "id": 66,
@@ -1928,7 +1993,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 2
+      "stock": 2,
+      "brand": "nike"
     },
     {
       "id": 67,
@@ -1958,7 +2024,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 34
+      "stock": 34,
+      "brand": "adidas"
     },
     {
       "id": 68,
@@ -1988,7 +2055,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 29
+      "stock": 29,
+      "brand": "hm"
     },
     {
       "id": 69,
@@ -2018,7 +2086,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 36
+      "stock": 36,
+      "brand": "mango"
     },
     {
       "id": 70,
@@ -2028,7 +2097,7 @@
       "price": 2100000,
       "oldPrice": 2470588,
       "discount": 15,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 73,
       "description": "شلوار جین مردانه با کیفیت بالا و مناسب استفاده روزمره.",
       "image": "/images/products/men-jeans.jpg",
@@ -2048,7 +2117,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 20
+      "stock": 20,
+      "brand": "puma"
     },
     {
       "id": 71,
@@ -2078,7 +2148,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 14
+      "stock": 14,
+      "brand": "levis"
     },
     {
       "id": 72,
@@ -2108,7 +2179,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 24
+      "stock": 24,
+      "brand": "bershka"
     },
     {
       "id": 73,
@@ -2138,7 +2210,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 32
+      "stock": 32,
+      "brand": "zara"
     },
     {
       "id": 74,
@@ -2168,7 +2241,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 31
+      "stock": 31,
+      "brand": "nike"
     },
     {
       "id": 75,
@@ -2198,7 +2272,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 16
+      "stock": 16,
+      "brand": "adidas"
     },
     {
       "id": 76,
@@ -2228,7 +2303,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 20
+      "stock": 20,
+      "brand": "hm"
     },
     {
       "id": 77,
@@ -2258,7 +2334,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 11
+      "stock": 11,
+      "brand": "mango"
     },
     {
       "id": 78,
@@ -2288,7 +2365,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 3
+      "stock": 3,
+      "brand": "puma"
     },
     {
       "id": 79,
@@ -2318,7 +2396,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 28
+      "stock": 28,
+      "brand": "levis"
     },
     {
       "id": 80,
@@ -2348,7 +2427,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 39
+      "stock": 39,
+      "brand": "bershka"
     },
     {
       "id": 81,
@@ -2378,7 +2458,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 29
+      "stock": 29,
+      "brand": "zara"
     },
     {
       "id": 82,
@@ -2408,7 +2489,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 18
+      "stock": 18,
+      "brand": "nike"
     },
     {
       "id": 83,
@@ -2438,7 +2520,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 6
+      "stock": 6,
+      "brand": "adidas"
     },
     {
       "id": 84,
@@ -2468,7 +2551,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 26
+      "stock": 26,
+      "brand": "hm"
     },
     {
       "id": 85,
@@ -2498,7 +2582,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 35
+      "stock": 35,
+      "brand": "mango"
     },
     {
       "id": 86,
@@ -2528,7 +2613,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 18
+      "stock": 18,
+      "brand": "puma"
     },
     {
       "id": 87,
@@ -2558,7 +2644,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 20
+      "stock": 20,
+      "brand": "levis"
     },
     {
       "id": 88,
@@ -2588,7 +2675,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 19
+      "stock": 19,
+      "brand": "bershka"
     },
     {
       "id": 89,
@@ -2618,7 +2706,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 13
+      "stock": 13,
+      "brand": "zara"
     },
     {
       "id": 90,
@@ -2648,7 +2737,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 1
+      "stock": 1,
+      "brand": "nike"
     },
     {
       "id": 91,
@@ -2677,7 +2767,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 23
+      "stock": 23,
+      "brand": "adidas"
     },
     {
       "id": 92,
@@ -2706,7 +2797,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 27
+      "stock": 27,
+      "brand": "hm"
     },
     {
       "id": 93,
@@ -2735,7 +2827,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 3
+      "stock": 3,
+      "brand": "mango"
     },
     {
       "id": 94,
@@ -2764,7 +2857,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 10
+      "stock": 10,
+      "brand": "puma"
     },
     {
       "id": 95,
@@ -2793,7 +2887,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 22
+      "stock": 22,
+      "brand": "levis"
     },
     {
       "id": 96,
@@ -2822,7 +2917,8 @@
       ],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 16
+      "stock": 16,
+      "brand": "bershka"
     },
     {
       "id": 97,
@@ -2832,7 +2928,7 @@
       "price": 2450000,
       "oldPrice": 3500000,
       "discount": 30,
-      "rating": 5.0,
+      "rating": 5,
       "reviewCount": 14,
       "description": "دامن زنانه با کیفیت بالا و مناسب استفاده روزمره.",
       "image": "/images/products/skirt.jpg",
@@ -2851,7 +2947,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 11
+      "stock": 11,
+      "brand": "zara"
     },
     {
       "id": 98,
@@ -2880,7 +2977,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 16
+      "stock": 16,
+      "brand": "nike"
     },
     {
       "id": 99,
@@ -2909,7 +3007,8 @@
       ],
       "isNew": false,
       "isBestSeller": true,
-      "stock": 32
+      "stock": 32,
+      "brand": "adidas"
     },
     {
       "id": 100,
@@ -2938,7 +3037,8 @@
       ],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 19
+      "stock": 19,
+      "brand": "hm"
     },
     {
       "id": 101,
@@ -2962,7 +3062,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 21
+      "stock": 21,
+      "brand": "mango"
     },
     {
       "id": 102,
@@ -2986,7 +3087,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 7
+      "stock": 7,
+      "brand": "puma"
     },
     {
       "id": 103,
@@ -3010,7 +3112,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 19
+      "stock": 19,
+      "brand": "levis"
     },
     {
       "id": 104,
@@ -3034,7 +3137,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 9
+      "stock": 9,
+      "brand": "bershka"
     },
     {
       "id": 105,
@@ -3058,7 +3162,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 20
+      "stock": 20,
+      "brand": "zara"
     },
     {
       "id": 106,
@@ -3082,7 +3187,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 8
+      "stock": 8,
+      "brand": "nike"
     },
     {
       "id": 107,
@@ -3106,7 +3212,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": true,
-      "stock": 21
+      "stock": 21,
+      "brand": "adidas"
     },
     {
       "id": 108,
@@ -3130,7 +3237,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 2
+      "stock": 2,
+      "brand": "hm"
     },
     {
       "id": 109,
@@ -3154,7 +3262,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 11
+      "stock": 11,
+      "brand": "mango"
     },
     {
       "id": 110,
@@ -3178,7 +3287,8 @@
       "sizes": [],
       "isNew": true,
       "isBestSeller": false,
-      "stock": 17
+      "stock": 17,
+      "brand": "puma"
     },
     {
       "id": 111,
@@ -3204,7 +3314,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 66
+      "stock": 66,
+      "brand": "levis"
     },
     {
       "id": 112,
@@ -3230,7 +3341,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 14
+      "stock": 14,
+      "brand": "bershka"
     },
     {
       "id": 113,
@@ -3256,7 +3368,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 55
+      "stock": 55,
+      "brand": "zara"
     },
     {
       "id": 114,
@@ -3282,7 +3395,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 6
+      "stock": 6,
+      "brand": "nike"
     },
     {
       "id": 115,
@@ -3308,7 +3422,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 38
+      "stock": 38,
+      "brand": "adidas"
     },
     {
       "id": 116,
@@ -3334,7 +3449,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 18
+      "stock": 18,
+      "brand": "hm"
     },
     {
       "id": 117,
@@ -3344,7 +3460,7 @@
       "price": 240000,
       "oldPrice": null,
       "discount": 0,
-      "rating": 4.0,
+      "rating": 4,
       "reviewCount": 29,
       "description": "جوراب نخی با کیفیت.",
       "image": "/images/products/socks.jpg",
@@ -3360,7 +3476,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 76
+      "stock": 76,
+      "brand": "mango"
     },
     {
       "id": 118,
@@ -3386,7 +3503,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 64
+      "stock": 64,
+      "brand": "puma"
     },
     {
       "id": 119,
@@ -3412,7 +3530,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 9
+      "stock": 9,
+      "brand": "levis"
     },
     {
       "id": 120,
@@ -3438,7 +3557,8 @@
       ],
       "isNew": false,
       "isBestSeller": false,
-      "stock": 73
+      "stock": 73,
+      "brand": "bershka"
     }
   ],
   "categories": [
@@ -3503,9 +3623,7 @@
       "image": "/images/categories/socks.jpg"
     }
   ],
-  "banners": [
-   
-  ],
+  "banners": [],
   "users": [
     {
       "id": 1,
