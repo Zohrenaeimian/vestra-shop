@@ -2,14 +2,14 @@ import { FiMoon, FiSun } from "react-icons/fi";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleTheme } from "../../../store/slices/themeSlice";
 import { useEffect } from "react";
+import { applyTheme } from "../../../utils/theme";
 
 function ThemeToggle({ className = "" }) {
   const dispatch = useDispatch();
   const darkMode = useSelector((state) => state.theme.darkMode);
 
   useEffect(() => {
-    document.documentElement.classList.toggle("dark", darkMode);
-    localStorage.setItem("theme", darkMode ? "dark" : "light");
+    applyTheme(darkMode);
   }, [darkMode]);
 
   return (

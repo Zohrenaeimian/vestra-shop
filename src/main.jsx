@@ -6,9 +6,9 @@ import { store } from "./store/store";
 
 import "./index.css";
 import App from "./App.jsx";
+import { applyTheme, getInitialDarkMode } from "./utils/theme";
 
-const savedTheme = localStorage.getItem("theme");
-document.documentElement.classList.toggle("dark", savedTheme === "dark");
+applyTheme(getInitialDarkMode());
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
