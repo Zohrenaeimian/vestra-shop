@@ -6,25 +6,29 @@ import "swiper/css/navigation";
 
 import ProductCard from "../ProductCard/ProductCard";
 
-function ProductSlider({ products }) {
+function ProductSlider({ products, lightNav = false }) {
   return (
     <Swiper
       modules={[Navigation]}
       navigation
       slidesPerView={2}
-      spaceBetween={20}
+      spaceBetween={12}
+      className={lightNav ? "discount-slider" : ""}
       breakpoints={{
         0: {
-          slidesPerView: 1,
+          slidesPerView: 1.5,
         },
-        640: {
+        480: {
           slidesPerView: 2,
         },
-        1024: {
+        768: {
           slidesPerView: 3,
         },
-        1280: {
+        1024: {
           slidesPerView: 4,
+        },
+        1280: {
+          slidesPerView: 5,
         },
       }}
     >

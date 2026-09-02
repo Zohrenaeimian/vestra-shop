@@ -9,6 +9,8 @@ import NotFound from "../pages/NotFound/NotFound";
 import MainLayout from "../layouts/MainLayout";
 import Profile from "../pages/Profile/Profile";
 import Favorites from "../pages/Favorites/Favorites";
+import Faq from "../pages/Faq/Faq";
+import About from "../pages/About/About";
 
 function AppRoutes() {
   return (
@@ -18,12 +20,14 @@ function AppRoutes() {
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetails />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/favorites" element={<Favorites />} />
       </Route>
 
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/profile" element={<Profile />} />
-      <Route path="/favorites" element={<Favorites />} />
 
       <Route path="*" element={<NotFound />} />
     </Routes>

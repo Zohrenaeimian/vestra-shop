@@ -30,8 +30,8 @@ function MenCollection() {
   if (loading) {
     return (
       <section className="rounded-3xl bg-olive px-5 py-8 text-cream md:px-8">
-        <h2 className="mb-4 text-2xl font-bold">کالکشن مردانه</h2>
-        <p className="text-oat">در حال بارگذاری...</p>
+        <h2 className="mb-4 text-2xl font-bold text-cream">کالکشن مردانه</h2>
+        <p className="text-cream">در حال بارگذاری...</p>
       </section>
     );
   }
@@ -39,7 +39,7 @@ function MenCollection() {
   return (
     <section className="rounded-3xl bg-olive px-5 py-8 text-cream md:px-8">
       <div className="mb-5 flex items-center justify-between">
-        <h2 className="text-2xl font-bold">کالکشن مردانه</h2>
+        <h2 className="text-2xl font-bold text-cream">کالکشن مردانه</h2>
 
         <Link
           to="/products?gender=men"

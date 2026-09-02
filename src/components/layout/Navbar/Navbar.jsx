@@ -1,128 +1,93 @@
-import { Link } from "react-router-dom";
-import {
-  FiHeart,
-  FiShoppingCart,
-  FiMenu,
-} from "react-icons/fi";
-import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { FiHeart, FiShoppingCart, FiMenu } from "react-icons/fi";
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import { useSelector } from "react-redux";
-import SearchModal from "../SearchModal/SearchModal";
 import UserMenu from "./UserMenu/UserMenu";
+
+const iconButtonClass =
+  "flex h-10 w-10 items-center justify-center rounded-full text-xl transition hover:bg-oat/40 md:h-11 md:w-11 md:text-2xl";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const cartItems = useSelector((state) => state.cart.cartItems);
   const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0);
 
-   const menuButtonClass = `p-2
-rounded-full
-transition
-hover:bg-oat/40
-dark:hover:bg-olive`
+  const getNavLinkClass = ({ isActive }) =>
+    `relative text-sm font-medium transition hover:text-clementine md:text-base after:absolute after:-bottom-1 after:right-0 after:h-0.5 after:bg-clementine after:transition-all ${
+      isActive
+        ? "text-clementine after:w-full"
+        : "after:w-0 hover:after:w-full"
+    }`;
 
+  const isProductsActive = ({ isActive, location }) =>
+    isActive || location.pathname.startsWith("/products");
 
   return (
-    <nav
-      className="
-      border-b
-      border-border
-     bg-surface
-     dark:bg-olive
-     dark:border-olive
-  "
-    >
-      <div className="site-container">
-        <div className="flex h-20 items-center justify-between">
-          {/* Mobile Menu */}
+    <nav className="border-b border-border/60 bg-surface pb-7 dark:border-olive dark:bg-olive/90 md:pb-8">
+      <div className="mx-6 flex h-[4.5rem] items-center justify-between sm:mx-10 md:h-20 md:mx-14 lg:mx-20">
+        <div className="flex items-center gap-2">
           <button
             onClick={() => setIsMenuOpen(true)}
-            className="text-2xl md:hidden"
+            className={`${iconButtonClass} md:hidden`}
+            aria-label="منو"
           >
             <FiMenu />
           </button>
 
-          <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-
-          {/* Logo */}
-          <div className="flex gap-7 items-center">
-            <Link to="/" className="bg-gradient-to-l from-olive to-clementine bg-clip-text text-transparent font-bold text-3xl ">
+          <Link
+            to="/"
+            className="flex items-center bg-gradient-to-l from-olive to-clementine bg-clip-text text-3xl leading-none font-bold text-transparent md:text-4xl"
+          >
             VESTRA
           </Link>
-          <SearchModal/>
-          </div>
-
-          {/* Desktop Menu */}
-          <ul className="hidden items-center gap-8 md:flex">
-            <li>
-              <Link to="/" className="transition hover:text-clementine">
-                خانه
-              </Link>
-            </li>
-
-            <li>
-              <Link to="/products" className="transition hover:text-clementine">
-                محصولات
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to="/products?gender=women"
-                className="transition hover:text-clementine"
-              >
-                زنانه
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to="/products?gender=men"
-                className="transition hover:text-clementine"
-              >
-                مردانه
-              </Link>
-            </li>
-          </ul>
-
-          {/* Actions */}
-          <div className="flex items-center gap-4 text-2xl">
-            
-
-            <ThemeToggle />
-
-            <Link to="/favorites">
-              <FiHeart />
-            </Link>
-
-            <Link to="/cart" className="relative">
-              <FiShoppingCart />
-
-              {cartCount > 0 && (
-                <span
-                  className="
-        absolute
-        -right-2
-        -top-2
-        flex
-        h-5
-        w-5
-        items-center
-        justify-center
-        rounded-full
-        bg-terracotta
-        text-xs
-        text-cream
-      "
-                >
-                  {cartCount}
-                </span>
-              )}
-            </Link>
-            <UserMenu />
-          </div>
         </div>
+
+        <ul className="hidden items-center gap-8 md:flex lg:gap-10">
+          <li>
+            <NavLink to="/" end className={getNavLinkClass}>
+              خانه
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/products"
+              className={getNavLinkClass}
+              isActive={isProductsActive}
+            >
+              محصولات
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/faq" className={getNavLinkClass}>
+              سوالات متداول
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/about" className={getNavLinkClass}>
+              درباره ما
+            </NavLink>
+          </li>
+        </ul>
+
+        <div className="flex items-center gap-0.5 md:gap-2">
+          <ThemeToggle className={iconButtonClass} />
+          <Link to="/favorites" className={iconButtonClass}>
+            <FiHeart />
+          </Link>
+          <Link to="/cart" className={`${iconButtonClass} relative`}>
+            <FiShoppingCart />
+            {cartCount > 0 && (
+              <span className="absolute top-0.5 right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-terracotta text-[10px] text-cream">
+                {cartCount}
+              </span>
+            )}
+          </Link>
+          <UserMenu buttonClassName={iconButtonClass} />
+        </div>
+
+        <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       </div>
     </nav>
   );

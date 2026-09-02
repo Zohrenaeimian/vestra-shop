@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import FavoriteButton from "../FavoriteButton/FavoriteButton";
 
 function ProductCard({ product }) {
   const hasDiscount = product.discount > 0;
@@ -8,46 +9,50 @@ function ProductCard({ product }) {
     : product.price;
 
   return (
-    <Link to={`/products/${product.id}`}>
-      <div className="relative overflow-hidden rounded-2xl bg-surface shadow transition duration-300 hover:-translate-y-1 hover:shadow-lg dark:bg-olive">
-        {hasDiscount && (
-          <span className="absolute left-2 top-2 z-10 rounded-full bg-terracotta px-2.5 py-0.5 text-xs font-bold text-cream">
-            %{product.discount}
-          </span>
-        )}
+    <div className="group relative">
+      <FavoriteButton product={product} />
 
-        <img
-          src={product.image}
-          alt={product.title}
-          className="h-52 w-full object-cover"
-        />
+      <Link to={`/products/${product.id}`}>
+        <div className="relative overflow-hidden rounded-xl bg-surface shadow transition duration-300 group-hover:-translate-y-1 group-hover:shadow-md dark:bg-olive">
+          {hasDiscount && (
+            <span className="absolute right-2 top-2 z-10 rounded-full bg-terracotta px-2 py-0.5 text-[10px] font-bold text-cream">
+              %{product.discount}
+            </span>
+          )}
 
-        <div className="space-y-1.5 p-3">
-          <h3 className="line-clamp-2 text-sm font-bold dark:text-cream">
-            {product.title}
-          </h3>
+          <img
+            src={product.image}
+            alt={product.title}
+            className="h-40 w-full object-cover"
+          />
 
-          <p className="text-xs text-clementine">⭐ {product.rating}</p>
+          <div className="space-y-1 p-2.5">
+            <h3 className="line-clamp-2 text-xs font-bold text-olive dark:text-cream">
+              {product.title}
+            </h3>
 
-          <div className="min-h-10">
-            {hasDiscount ? (
-              <>
-                <p className="text-xs text-muted line-through">
+            <p className="text-[10px] text-clementine">⭐ {product.rating}</p>
+
+            <div className="min-h-8">
+              {hasDiscount ? (
+                <>
+                  <p className="text-[10px] text-muted line-through">
+                    {product.price.toLocaleString()} تومان
+                  </p>
+                  <p className="text-xs font-bold text-terracotta">
+                    {finalPrice.toLocaleString()} تومان
+                  </p>
+                </>
+              ) : (
+                <p className="text-xs font-bold text-olive dark:text-cream">
                   {product.price.toLocaleString()} تومان
                 </p>
-                <p className="text-sm font-bold text-terracotta">
-                  {finalPrice.toLocaleString()} تومان
-                </p>
-              </>
-            ) : (
-              <p className="text-sm font-bold dark:text-cream">
-                {product.price.toLocaleString()} تومان
-              </p>
-            )}
+              )}
+            </div>
           </div>
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 }
 

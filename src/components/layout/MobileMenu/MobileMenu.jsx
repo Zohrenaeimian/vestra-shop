@@ -1,11 +1,18 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FiX } from "react-icons/fi";
 
-function MobileMenu({
-  isMenuOpen,
-  setIsMenuOpen,
-}) {
+function MobileMenu({ isMenuOpen, setIsMenuOpen }) {
   if (!isMenuOpen) return null;
+
+  const getLinkClass = ({ isActive }) =>
+    `block rounded-xl px-3 py-2 transition ${
+      isActive
+        ? "bg-sage/40 font-bold text-clementine"
+        : "hover:bg-sage/30 hover:text-clementine"
+    }`;
+
+  const isProductsActive = ({ isActive, location }) =>
+    isActive || location.pathname.startsWith("/products");
 
   return (
     <>
@@ -14,68 +21,58 @@ function MobileMenu({
         className="fixed inset-0 z-40 bg-olive/50"
       />
 
-      <div
-        className="
-          fixed
-          right-0
-          top-0
-          z-50
-          h-screen
-          w-72
-          bg-surface
-          p-6
-          text-foreground
-          shadow-xl
-        "
-      >
+      <div className="fixed top-0 right-0 z-50 h-screen w-72 bg-surface p-6 text-foreground shadow-xl dark:bg-olive">
         <div className="mb-8 flex items-center justify-between">
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-2xl font-bold text-olive dark:text-cream">
             VESTRA
           </h2>
-
           <button
             onClick={() => setIsMenuOpen(false)}
             className="text-3xl"
+            aria-label="بستن منو"
           >
             <FiX />
           </button>
         </div>
 
-        <ul className="space-y-6 text-lg">
+        <ul className="space-y-2 text-lg">
           <li>
-            <Link
+            <NavLink
               to="/"
+              end
+              className={getLinkClass}
               onClick={() => setIsMenuOpen(false)}
             >
               خانه
-            </Link>
+            </NavLink>
           </li>
-
           <li>
-            <Link
+            <NavLink
               to="/products"
+              className={getLinkClass}
+              isActive={isProductsActive}
               onClick={() => setIsMenuOpen(false)}
             >
               محصولات
-            </Link>
+            </NavLink>
           </li>
-
           <li>
-            <Link
-              to="/products?gender=women"
+            <NavLink
+              to="/faq"
+              className={getLinkClass}
               onClick={() => setIsMenuOpen(false)}
             >
-              زنانه
-            </Link>
+              سوالات متداول
+            </NavLink>
           </li>
-
           <li>
-            <Link
-              to="/products?gender=men"
+            <NavLink
+              to="/about"
+              className={getLinkClass}
               onClick={() => setIsMenuOpen(false)}
             >
-              مردانه
-            </Link>
+              درباره ما
+            </NavLink>
           </li>
         </ul>
       </div>

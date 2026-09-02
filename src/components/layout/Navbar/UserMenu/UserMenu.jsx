@@ -4,7 +4,7 @@ import { FaUser } from "react-icons/fa";
 import { CiLogin, CiLogout } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
-function UserMenu() {
+function UserMenu({ buttonClassName = "" }) {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const menuRef = useRef(null);
   const currentUserString = localStorage.getItem("currentUser");
@@ -60,7 +60,7 @@ dark:hover:bg-olive
 
   return (
     <div ref={menuRef} className="relative">
-      <button onClick={showMenu}>
+      <button onClick={showMenu} className={buttonClassName} aria-label="منوی کاربر">
         <FiUser />
       </button>
 

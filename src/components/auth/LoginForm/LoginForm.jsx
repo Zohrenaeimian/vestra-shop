@@ -2,6 +2,8 @@ import { useState } from "react";
 import { PiEyeLight, PiEyeSlash } from "react-icons/pi";
 import { getUsersByPhoneAndPass } from "../../../services/authService";
 import { Link, useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { loadFavorites } from "../../../store/slices/favoritesSlice";
 import Swal from "sweetalert2";
 
 function LoginForm() {
@@ -9,6 +11,7 @@ function LoginForm() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const EyeIcon = isVisible ? PiEyeLight : PiEyeSlash;
   const togglePasswordVisibility = () => {
     setIsVisible((prev) => !prev);
@@ -31,7 +34,8 @@ function LoginForm() {
       };
       const result = JSON.stringify(userInfo);
       localStorage.setItem("currentUser", result);
-      
+      dispatch(loadFavorites());
+
       Swal.fire({
         title: "ورود موفق",
         text: "خوش آمدید، ورود شما با موفقیت انجام شد",

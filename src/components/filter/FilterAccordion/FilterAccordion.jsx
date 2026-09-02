@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 
-function FilterAccordion({ title, param, options }) {
-  const [isOpen, setIsOpen] = useState(true);
+function FilterAccordion({ title, param, options, defaultOpen = false }) {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
   const [searchParams, setSearchParams] = useSearchParams();
   const currentValue = searchParams.get(param);
 

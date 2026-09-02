@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import categories from "./categoriesData";
 
-function CategoriesSection() {
+function CategoriesSection({ compact = false }) {
   return (
     <section>
-      <div className="mb-6 flex items-center justify-between">
+      <div
+        className={`flex items-center justify-between ${compact ? "mb-4" : "mb-6"}`}
+      >
         <h2 className="text-xl font-bold md:text-2xl">دسته بندی محصولات</h2>
 
         <Link

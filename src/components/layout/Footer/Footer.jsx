@@ -5,15 +5,15 @@ function Footer() {
   const quickLinks = [
     { label: "خانه", to: "/" },
     { label: "محصولات", to: "/products" },
-    { label: "زنانه", to: "/products?gender=women" },
-    { label: "مردانه", to: "/products?gender=men" },
+    { label: "درباره ما", to: "/about" },
+    { label: "سوالات متداول", to: "/faq" },
   ];
 
   const supportLinks = [
-    { label: "سوالات متداول", to: "/" },
-    { label: "راهنمای ارسال", to: "/" },
-    { label: "شرایط بازگشت", to: "/" },
-    { label: "تماس با ما", to: "/" },
+    { label: "سوالات متداول", to: "/faq" },
+    { label: "درباره ما", to: "/about" },
+    { label: "شرایط بازگشت", to: "/faq" },
+    { label: "تماس با ما", to: "/about" },
   ];
 
   return (

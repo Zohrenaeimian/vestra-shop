@@ -11,11 +11,9 @@ function DiscountProducts() {
     const fetchProducts = async () => {
       try {
         const response = await getProducts();
-
         const discountProducts = response.data.filter(
           (product) => product.discount > 0
         );
-
         setProducts(discountProducts);
       } catch (error) {
         console.log(error);
@@ -29,27 +27,27 @@ function DiscountProducts() {
 
   if (loading) {
     return (
-      <section className="rounded-3xl bg-clementine px-5 py-8 text-cream">
-        <h2 className="mb-4 text-2xl font-bold">تخفیف‌های شگفت‌انگیز</h2>
-        <p>در حال بارگذاری...</p>
+      <section className="rounded-3xl bg-clementine px-5 py-6 text-cream">
+        <h2 className="mb-3 text-xl font-bold text-cream">تخفیف‌های شگفت‌انگیز</h2>
+        <p className="text-cream">در حال بارگذاری...</p>
       </section>
     );
   }
 
   return (
-    <section className="rounded-3xl bg-clementine px-5 py-8 text-cream md:px-8">
-      <div className="mb-5 flex items-center justify-between">
-        <h2 className="text-2xl font-bold">تخفیف‌های شگفت‌انگیز</h2>
+    <section className="rounded-3xl bg-clementine px-4 py-5 text-cream md:px-6">
+      <div className="mb-4 flex items-center justify-between">
+        <h2 className="text-xl font-bold text-cream">تخفیف‌های شگفت‌انگیز</h2>
 
         <Link
           to="/products"
-          className="text-sm font-medium text-cream/90 transition hover:text-olive"
+          className="rounded-full bg-olive px-4 py-1.5 text-xs font-medium text-cream transition hover:bg-terracotta"
         >
           مشاهده همه
         </Link>
       </div>
 
-      <ProductSlider products={products} />
+      <ProductSlider products={products} lightNav />
     </section>
   );
 }

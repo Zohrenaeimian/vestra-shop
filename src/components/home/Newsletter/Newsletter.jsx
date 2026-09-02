@@ -13,7 +13,8 @@ function Newsletter() {
           <input
             type="tel"
             placeholder="شماره موبایل"
-            className="flex-1 rounded-full border-0 bg-cream px-5 py-3 text-foreground outline-none placeholder:text-muted"
+            dir="rtl"
+            className="flex-1 rounded-full border-0 bg-cream px-5 py-3 text-right text-foreground outline-none placeholder:text-right placeholder:text-muted"
           />
           <button
             type="button"

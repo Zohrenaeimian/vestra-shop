@@ -6,7 +6,7 @@ import { useSearchParams } from "react-router-dom";
 import SortBar from "../../components/sortBar/sortBar";
 import Pagination from "../../components/common/Pagination/Pagination";
 
-const ITEMS_PER_PAGE = 9;
+const ITEMS_PER_PAGE = 8;
 
 function Products() {
   const [products, setProducts] = useState([]);
@@ -14,7 +14,8 @@ function Products() {
   const [searchParams, setSearchParams] = useSearchParams();
   const category = searchParams.get("category");
   const gender = searchParams.get("gender");
-  const price = searchParams.get("price");
+  const minPrice = Number(searchParams.get("minPrice") || 0);
+  const maxPrice = Number(searchParams.get("maxPrice") || Infinity);
   const sort = searchParams.get("sort");
   const search = searchParams.get("search");
 
@@ -27,20 +28,9 @@ function Products() {
       ? categoryFilteredProducts.filter((product) => product.gender === gender)
       : categoryFilteredProducts;
 
-    const priceFilteredProducts = price
-      ? genderFilteredProducts.filter((product) => {
-          if (price === "under1000") {
-            return product.price < 1000000;
-          }
-          if (price === "over2000") {
-            return product.price > 2000000;
-          }
-          if (price === "1000to2000") {
-            return product.price >= 1000000 && product.price <= 2000000;
-          }
-          return true;
-        })
-      : genderFilteredProducts;
+    const priceFilteredProducts = genderFilteredProducts.filter((product) => {
+      return product.price >= minPrice && product.price <= maxPrice;
+    });
 
     const searchFilteredProducts = search
       ? priceFilteredProducts.filter((product) => {
@@ -70,7 +60,7 @@ function Products() {
           return 0;
       }
     });
-  }, [products, category, gender, price, search, sort]);
+  }, [products, category, gender, minPrice, maxPrice, search, sort]);
 
   const totalPages = Math.max(
     1,
@@ -85,7 +75,7 @@ function Products() {
     return sortFilteredProducts.slice(startIndex, startIndex + ITEMS_PER_PAGE);
   }, [sortFilteredProducts, currentPage]);
 
-  const filterKey = `${category}-${gender}-${price}-${sort}-${search}`;
+  const filterKey = `${category}-${gender}-${minPrice}-${maxPrice}-${sort}-${search}`;
   const previousFilterKey = useRef(filterKey);
 
   useEffect(() => {
