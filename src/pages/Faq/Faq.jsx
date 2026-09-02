@@ -40,7 +40,7 @@ function FaqItem({ question, answer, isOpen, onToggle }) {
       <button
         type="button"
         onClick={onToggle}
-        className="flex w-full items-center justify-between gap-4 p-5 text-right transition hover:bg-sage/20"
+        className="flex w-full items-center justify-between gap-3 p-4 text-right text-sm transition hover:bg-sage/20 sm:gap-4 sm:p-5 sm:text-base"
       >
         <span className="font-bold text-olive dark:text-cream">{question}</span>
         <FiChevronDown
@@ -65,7 +65,7 @@ function Faq() {
     <div className="mx-auto max-w-3xl">
       <div className="mb-10 text-center">
         <p className="text-sm font-bold text-clementine">پشتیبانی</p>
-        <h1 className="mt-2 text-3xl font-bold">سوالات متداول</h1>
+        <h1 className="mt-2 text-2xl font-bold sm:text-3xl">سوالات متداول</h1>
         <p className="mt-3 text-sm text-muted">
           پاسخ سوالات رایج درباره ارسال، پشتیبانی و مرجوعی
         </p>

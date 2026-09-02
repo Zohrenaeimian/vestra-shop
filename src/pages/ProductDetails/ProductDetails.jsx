@@ -39,13 +39,13 @@ function ProductDetails() {
 
   return (
     <div className="py-8">
-      <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+      <div className="grid gap-6 sm:gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12">
         <ProductGallery product={product} />
 
         <ProductInfo product={product} />
       </div>
 
-      <div className="mt-16">
+      <div className="mt-10 sm:mt-16">
         <RelatedProducts product={product} />
         <ProductTabs product={product} />
       </div>

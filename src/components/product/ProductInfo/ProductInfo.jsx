@@ -15,7 +15,7 @@ function ProductInfo({ product }) {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-4xl font-bold dark:text-cream">{product.title}</h1>
+      <h1 className="text-2xl font-bold sm:text-3xl lg:text-4xl dark:text-cream">{product.title}</h1>
 
       <div className="flex items-center gap-2">
         <span className="text-clementine">⭐ {product.rating}</span>
@@ -34,12 +34,12 @@ function ProductInfo({ product }) {
               {product.oldPrice.toLocaleString()} تومان
             </p>
 
-            <p className="text-3xl font-bold text-terracotta">
+            <p className="text-2xl font-bold text-terracotta sm:text-3xl">
               {product.price.toLocaleString()} تومان
             </p>
           </>
         ) : (
-          <p className="text-3xl font-bold dark:text-cream">
+          <p className="text-2xl font-bold sm:text-3xl dark:text-cream">
             {product.price.toLocaleString()} تومان
           </p>
         )}
@@ -48,7 +48,7 @@ function ProductInfo({ product }) {
       <div className="space-y-3">
         <h3 className="font-bold dark:text-cream">رنگ:</h3>
 
-        <div className="flex gap-3">
+        <div className="flex flex-wrap gap-3">
           {product.colors.map((color) => (
             <button
               key={color}
@@ -76,7 +76,7 @@ function ProductInfo({ product }) {
       <div className="space-y-3">
         <h3 className="font-bold dark:text-cream">سایز:</h3>
 
-        <div className="flex gap-3">
+        <div className="flex flex-wrap gap-3">
           {product.sizes.map((size) => (
             <button
               key={size}

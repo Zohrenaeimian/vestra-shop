@@ -75,7 +75,7 @@ function PriceRangeFilter({ defaultOpen = false }) {
 
       {isOpen && (
         <div className="space-y-4 border-t-2 border-border/50 p-4 dark:border-olive">
-          <div className="flex items-center justify-between text-xs text-muted dark:text-oat">
+          <div className="flex flex-col gap-1 text-xs text-muted sm:flex-row sm:items-center sm:justify-between dark:text-oat">
             <span>از {minPrice.toLocaleString()} تومان</span>
             <span>تا {maxPrice.toLocaleString()} تومان</span>
           </div>

@@ -140,21 +140,19 @@ hover:bg-terracotta/10
 
   return (
     <>
-      <aside className="w-72 shrink-0">
+      <aside className="w-full shrink-0 lg:w-72">
         <div
           className="
-    sticky
-    top-6
-
-    h-[calc(100vh-48px)]
-
     rounded-3xl
     border
     border-border
     bg-surface
     shadow-lg
-
-    p-6
+    p-4
+    sm:p-6
+    lg:sticky
+    lg:top-6
+    lg:h-[calc(100vh-48px)]
 "
         >
           <div

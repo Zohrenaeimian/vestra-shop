@@ -29,14 +29,14 @@ function About() {
     <div className="mx-auto max-w-4xl">
       <div className="mb-10 text-center">
         <p className="text-sm font-bold text-clementine">داستان ما</p>
-        <h1 className="mt-2 text-3xl font-bold">درباره وسترا</h1>
+        <h1 className="mt-2 text-2xl font-bold sm:text-3xl">درباره وسترا</h1>
         <p className="mt-4 text-sm leading-8 text-muted">
           وسترا با هدف ارائه پوشاک روزمره با ترکیب رنگ‌های گرم و طبیعی شکل
           گرفت. ما معتقدیم استایل خوب باید ساده، باکیفیت و در دسترس باشد.
         </p>
       </div>
 
-      <div className="mb-10 rounded-3xl bg-olive p-8 text-cream md:p-10">
+      <div className="mb-10 rounded-3xl bg-olive p-6 text-cream sm:p-8 md:p-10">
         <h2 className="text-xl font-bold">ماموریت ما</h2>
         <p className="mt-4 leading-8 text-oat">
           ساختن فضایی برای خرید لباس‌هایی که هم برای استفاده روزانه مناسب‌اند و

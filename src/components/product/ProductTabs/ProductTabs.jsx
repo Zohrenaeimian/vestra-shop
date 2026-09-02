@@ -7,13 +7,13 @@ function ProductTabs({ product }) {
     useState("description");
 
   return (
-    <section className="mt-24">
-      <div className="mb-8 flex gap-4 border-b">
+    <section className="mt-12 sm:mt-16 lg:mt-24">
+      <div className="mb-6 flex gap-2 overflow-x-auto border-b sm:mb-8 sm:gap-4">
         <button
           onClick={() =>
             setActiveTab("description")
           }
-          className={`pb-4 ${
+          className={`shrink-0 pb-3 text-sm sm:pb-4 sm:text-base ${
             activeTab === "description"
               ? "border-b-2 border-clementine font-bold"
               : ""
@@ -26,7 +26,7 @@ function ProductTabs({ product }) {
           onClick={() =>
             setActiveTab("specification")
           }
-          className={`pb-4 ${
+          className={`shrink-0 pb-3 text-sm sm:pb-4 sm:text-base ${
             activeTab === "specification"
               ? "border-b-2 border-clementine font-bold"
               : ""
@@ -37,7 +37,7 @@ function ProductTabs({ product }) {
 
         <button
           onClick={() => setActiveTab("review")}
-          className={`pb-4 ${
+          className={`shrink-0 pb-3 text-sm sm:pb-4 sm:text-base ${
             activeTab === "review"
               ? "border-b-2 border-clementine font-bold"
               : ""

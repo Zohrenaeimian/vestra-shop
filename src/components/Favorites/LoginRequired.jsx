@@ -3,7 +3,7 @@ import { FiHeart } from "react-icons/fi";
 
 function LoginRequired() {
   return (
-    <div className="mx-auto max-w-md rounded-3xl border border-border bg-surface p-10 text-center dark:border-olive dark:bg-olive/40">
+    <div className="mx-auto max-w-md rounded-3xl border border-border bg-surface p-6 text-center sm:p-10 dark:border-olive dark:bg-olive/40">
       <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-sage/40 text-terracotta">
         <FiHeart size={28} />
       </div>

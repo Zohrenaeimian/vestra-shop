@@ -20,16 +20,17 @@ function HeroSlider() {
           disableOnInteraction: false,
         }}
         loop
-        className="overflow-hidden rounded-3xl"
+        className="hero-slider overflow-hidden rounded-2xl md:rounded-3xl"
       >
         {sliderData.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <Link to={slide.link}>
-              <div className="overflow-hidden rounded-3xl">
+            <Link to={slide.link} className="block">
+              <div className="overflow-hidden rounded-2xl md:rounded-3xl">
                 <img
                   src={slide.image}
                   alt={slide.alt}
-                  className="h-[260px] w-full object-cover md:h-[340px] lg:h-[400px]"
+                  className="h-[clamp(150px,38vw,200px)] w-full object-cover object-center sm:h-[220px] md:h-[320px] lg:h-[400px]"
+                  loading="lazy"
                 />
               </div>
             </Link>

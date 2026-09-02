@@ -26,8 +26,8 @@ function Navbar() {
 
   return (
     <nav className="border-b border-border/60 bg-surface pb-7 dark:border-olive dark:bg-olive/90 md:pb-8">
-      <div className="mx-6 flex h-[4.5rem] items-center justify-between sm:mx-10 md:h-20 md:mx-14 lg:mx-20">
-        <div className="flex items-center gap-2">
+      <div className="mx-4 flex h-16 items-center justify-between sm:mx-6 sm:h-[4.5rem] md:h-20 md:mx-10 lg:mx-16">
+        <div className="flex min-w-0 items-center gap-1 sm:gap-2">
           <button
             onClick={() => setIsMenuOpen(true)}
             className={`${iconButtonClass} md:hidden`}
@@ -38,7 +38,7 @@ function Navbar() {
 
           <Link
             to="/"
-            className="flex items-center bg-gradient-to-l from-olive to-clementine bg-clip-text text-3xl leading-none font-bold text-transparent md:text-4xl"
+            className="flex items-center bg-gradient-to-l from-olive to-clementine bg-clip-text text-2xl leading-none font-bold text-transparent sm:text-3xl md:text-4xl"
           >
             VESTRA
           </Link>
@@ -71,7 +71,7 @@ function Navbar() {
           </li>
         </ul>
 
-        <div className="flex items-center gap-0.5 md:gap-2">
+        <div className="flex shrink-0 items-center gap-0.5 sm:gap-1 md:gap-2">
           <ThemeToggle className={iconButtonClass} />
           <Link to="/favorites" className={iconButtonClass}>
             <FiHeart />

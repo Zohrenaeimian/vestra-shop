@@ -39,7 +39,7 @@ function SortBar() {
     <div>
       <h4 className="mb-4 font-bold dark:text-cream">مرتب سازی :</h4>
 
-      <div className="flex flex-wrap gap-3 mb-8 ">
+      <div className="flex flex-wrap gap-2 sm:gap-3 mb-6 sm:mb-8">
         {sorts.map((sort) => (
           <button
             key={sort.value}
@@ -47,14 +47,17 @@ function SortBar() {
             className={` 
                 rounded-full
   border
-  px-5
-  py-2
-  text-sm
+  px-3
+  py-1.5
+  text-xs
   font-medium
   cursor-pointer
   transition
   duration-300
   backdrop-blur-sm
+  sm:px-5
+  sm:py-2
+  sm:text-sm
               
      ${
        currentSort === sort.value

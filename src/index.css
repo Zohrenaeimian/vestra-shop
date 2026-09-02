@@ -72,6 +72,30 @@ body {
   background: var(--color-clementine);
 }
 
+.hero-slider .swiper-button-next,
+.hero-slider .swiper-button-prev {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.hero-slider .swiper-button-next::after,
+.hero-slider .swiper-button-prev::after {
+  font-size: 11px !important;
+}
+
+@media (min-width: 768px) {
+  .hero-slider .swiper-button-next,
+  .hero-slider .swiper-button-prev {
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+  .hero-slider .swiper-button-next::after,
+  .hero-slider .swiper-button-prev::after {
+    font-size: 14px !important;
+  }
+}
+
 .discount-slider .swiper-button-next,
 .discount-slider .swiper-button-prev {
   color: var(--color-cream) !important;

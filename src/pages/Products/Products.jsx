@@ -145,7 +145,7 @@ function Products() {
 
   return (
     <div className="py-4">
-      <div className="grid grid-cols-12 gap-8">
+      <div className="grid grid-cols-12 gap-4 sm:gap-6 lg:gap-8">
         <aside className="col-span-12 lg:col-span-3">
           <FilterSidebar />
         </aside>
@@ -170,7 +170,7 @@ function Products() {
               />
             </>
           ) : (
-            <div className="rounded-2xl border p-10 text-center">
+            <div className="rounded-2xl border p-6 text-center sm:p-10">
               <p className="text-muted dark:text-oat">محصولی یافت نشد.</p>
             </div>
           )}

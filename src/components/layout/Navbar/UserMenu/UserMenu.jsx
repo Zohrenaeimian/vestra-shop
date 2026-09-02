@@ -70,7 +70,8 @@ dark:hover:bg-olive
             className="
 absolute
 top-full
-left-0
+end-0
+start-auto
 mt-3
 w-44
 

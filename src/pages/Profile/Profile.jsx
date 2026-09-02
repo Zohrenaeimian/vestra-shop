@@ -8,8 +8,8 @@ function Profile() {
     <>
       <Header />
       <Navbar />
-      <div className="site-container py-8">
-        <div className="flex items-start gap-6">
+      <div className="site-container py-6 sm:py-8">
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-start">
           <ProfileSidebar />
 
           <main className="flex-1">

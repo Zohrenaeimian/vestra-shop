@@ -18,7 +18,7 @@ function MainLayout() {
         </div>
       </div>
 
-      <main className="flex-1 pt-10 md:pt-12">
+      <main className="flex-1 pt-14 sm:pt-16 md:pt-12">
         <div className="site-container pb-8">
           <Outlet />
         </div>

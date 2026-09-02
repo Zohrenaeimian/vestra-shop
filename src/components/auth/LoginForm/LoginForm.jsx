@@ -58,28 +58,24 @@ function LoginForm() {
   };
 
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center bg-background px-6 py-12 lg:px-8">
+    <section className="flex min-h-screen flex-col items-center justify-center bg-background px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <div
         className="
-  mt-10
+  mt-4
   w-full
   max-w-md
-
   rounded-3xl
-
   border
   border-border/70
-
   bg-surface/70
-  backdrop-blur-xl
-
-  p-8
-
+  p-5
   shadow-xl
   shadow-clementine/20
-
+  backdrop-blur-xl
   dark:border-olive
   dark:bg-olive/60
+  sm:mt-10
+  sm:p-8
 "
       >
         <h2 className="text-center text-2xl/9 font-bold tracking-tight text-foreground">
@@ -110,7 +106,7 @@ function LoginForm() {
           </div>
 
           <div>
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
               <label
                 htmlFor="password"
                 className="block text-sm/6 font-medium text-foreground"

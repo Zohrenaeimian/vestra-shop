@@ -19,8 +19,8 @@ function Footer() {
   return (
     <footer className="mt-auto border-t border-border bg-surface text-foreground">
       <div className="site-container py-10 md:py-14">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:gap-10">
-          <div className="col-span-2 space-y-4 md:col-span-1">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 md:gap-10">
+          <div className="space-y-4 sm:col-span-2 md:col-span-1">
             <Link to="/" className="text-2xl font-bold text-olive">
               VESTRA
             </Link>

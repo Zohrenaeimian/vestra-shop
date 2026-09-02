@@ -7,20 +7,20 @@ function Header() {
 
   return (
     <header className="bg-olive text-cream">
-      <div className="site-container flex items-center justify-between gap-4 py-2.5 text-sm md:py-3 md:text-base">
+      <div className="site-container flex flex-col items-center gap-2 py-2.5 text-center text-xs sm:flex-row sm:justify-between sm:gap-4 sm:text-sm md:py-3 md:text-base">
         <Link
           to={orderTrackingLink}
-          className="flex items-center gap-2 transition hover:text-oat"
+          className="flex items-center gap-2 transition hover:text-oat sm:shrink-0"
         >
           <FiPackage size={16} />
           پیگیری سفارش
         </Link>
 
-        <p className="text-center font-medium">
+        <p className="font-medium sm:flex-1 sm:px-2 sm:text-center">
           ارسال رایگان برای خریدهای بالای ۲ میلیون تومان
         </p>
 
-        <Link to="/about" className="transition hover:text-oat">
+        <Link to="/about" className="transition hover:text-oat sm:shrink-0">
           درباره وسترا
         </Link>
       </div>
