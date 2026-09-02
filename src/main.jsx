@@ -4,9 +4,11 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
 
-
 import "./index.css";
 import App from "./App.jsx";
+
+const savedTheme = localStorage.getItem("theme");
+document.documentElement.classList.toggle("dark", savedTheme === "dark");
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

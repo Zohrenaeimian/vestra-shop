@@ -21,9 +21,9 @@ function MobileMenu({ isMenuOpen, setIsMenuOpen }) {
         className="fixed inset-0 z-40 bg-olive/50"
       />
 
-      <div className="fixed top-0 right-0 z-50 h-screen w-[min(18rem,85vw)] bg-surface p-5 text-foreground shadow-xl sm:p-6 dark:bg-olive">
+      <div className="fixed top-0 right-0 z-50 h-screen w-[min(18rem,85vw)] bg-surface p-5 text-foreground shadow-xl sm:p-6">
         <div className="mb-8 flex items-center justify-between">
-          <h2 className="text-2xl font-bold text-olive dark:text-cream">
+          <h2 className="text-2xl font-bold text-foreground">
             VESTRA
           </h2>
           <button

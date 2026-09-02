@@ -39,7 +39,7 @@ function WhyUs() {
           return (
             <div
               key={item.title}
-              className="rounded-2xl border border-border bg-surface px-4 py-6 text-center transition hover:border-clementine hover:shadow-md dark:border-olive dark:bg-olive/40"
+              className="rounded-2xl border border-border bg-surface px-4 py-6 text-center transition hover:border-clementine hover:shadow-md dark:border-border"
             >
               <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-sage/40 text-olive">
                 <Icon size={22} />

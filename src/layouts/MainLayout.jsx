@@ -6,7 +6,7 @@ import Footer from "../components/layout/Footer/Footer";
 
 function MainLayout() {
   return (
-    <div className="flex min-h-screen flex-col bg-background text-foreground dark:bg-olive dark:text-cream">
+    <div className="flex min-h-screen flex-col bg-background text-foreground">
       <div className="relative z-30">
         <Header />
         <Navbar />

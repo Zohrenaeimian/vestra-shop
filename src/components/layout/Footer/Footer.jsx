@@ -21,7 +21,7 @@ function Footer() {
       <div className="site-container py-10 md:py-14">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 md:gap-10">
           <div className="space-y-4 sm:col-span-2 md:col-span-1">
-            <Link to="/" className="text-2xl font-bold text-olive">
+            <Link to="/" className="text-2xl font-bold text-foreground">
               VESTRA
             </Link>
             <p className="text-sm leading-7 text-muted">
@@ -44,7 +44,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-base font-bold text-olive">دسترسی سریع</h3>
+            <h3 className="mb-4 text-base font-bold text-foreground">دسترسی سریع</h3>
             <ul className="space-y-3 text-sm text-muted">
               {quickLinks.map((item) => (
                 <li key={item.label}>
@@ -60,7 +60,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-base font-bold text-olive">خدمات مشتریان</h3>
+            <h3 className="mb-4 text-base font-bold text-foreground">خدمات مشتریان</h3>
             <ul className="space-y-3 text-sm text-muted">
               {supportLinks.map((item) => (
                 <li key={item.label}>
@@ -76,7 +76,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-base font-bold text-olive">شبکه‌های اجتماعی</h3>
+            <h3 className="mb-4 text-base font-bold text-foreground">شبکه‌های اجتماعی</h3>
             <p className="mb-4 text-sm text-muted">
               ما را در شبکه‌های اجتماعی دنبال کنید.
             </p>

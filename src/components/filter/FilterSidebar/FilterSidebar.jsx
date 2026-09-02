@@ -30,7 +30,7 @@ function FilterSidebar() {
       <button
         type="button"
         onClick={() => setIsOpen((prev) => !prev)}
-        className="mb-4 flex w-full items-center justify-center gap-2 rounded-xl border border-border bg-surface px-4 py-3 text-sm font-bold transition hover:bg-sage/20 lg:hidden dark:border-olive"
+        className="mb-4 flex w-full items-center justify-center gap-2 rounded-xl border border-border bg-surface px-4 py-3 text-sm font-bold transition hover:bg-sage/20 lg:hidden dark:border-border"
       >
         <FiFilter />
         {isOpen ? "بستن فیلترها" : "نمایش فیلترها"}

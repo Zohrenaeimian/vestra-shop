@@ -32,7 +32,7 @@ function FavoritesContent() {
 
   if (favorites.length === 0) {
     return (
-      <div className="mx-auto max-w-lg rounded-3xl border border-border bg-surface p-6 text-center sm:p-10 dark:border-olive dark:bg-olive/40">
+      <div className="mx-auto max-w-lg rounded-3xl border border-border bg-surface p-6 text-center sm:p-10 dark:border-border">
         <h1 className="text-2xl font-bold">علاقه‌مندی‌های من</h1>
         <p className="mt-3 text-sm text-muted">
           هنوز محصولی به علاقه‌مندی‌ها اضافه نکرده‌اید.

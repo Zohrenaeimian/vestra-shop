@@ -33,7 +33,7 @@ hover:bg-oat/40
 hover:text-clementine
 hover:-translate-x-0.5
 
-dark:hover:bg-olive
+dark:hover:bg-sage/20
 `;
 
   const showMenu = () => {

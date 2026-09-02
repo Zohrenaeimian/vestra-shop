@@ -51,7 +51,7 @@ function About() {
           return (
             <div
               key={item.title}
-              className="rounded-2xl border border-border bg-surface p-6 dark:border-olive dark:bg-olive/40"
+              className="rounded-2xl border border-border bg-surface p-6 dark:border-border"
             >
               <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-full bg-sage/40 text-olive">
                 <Icon size={20} />

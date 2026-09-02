@@ -62,7 +62,7 @@ function SortBar() {
      ${
        currentSort === sort.value
          ? "bg-clementine text-cream border-clementine shadow-lg"
-         : "bg-surface/40 dark:bg-olive/40 border-border dark:border-olive hover:bg-sage/40 dark:hover:bg-olive"
+         : "bg-surface/40 border-border dark:border-border hover:bg-sage/40 dark:hover:bg-sage/20"
      }
      `}
           >

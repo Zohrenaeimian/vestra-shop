@@ -26,8 +26,23 @@
   --color-border: var(--color-oat);
 }
 
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+  --color-background: #1a2418;
+  --color-surface: #243021;
+  --color-foreground: #f6f2e8;
+  --color-muted: #b5c0a8;
+  --color-border: #3a4f36;
+}
+
 body {
   font-family: "Vazirmatn";
+  background-color: var(--color-background);
+  color: var(--color-foreground);
 }
 
 .site-container {
@@ -70,6 +85,15 @@ body {
 
 .swiper-pagination-bullet-active {
   background: var(--color-clementine);
+}
+
+.dark .swiper-button-next,
+.dark .swiper-button-prev {
+  color: var(--color-cream) !important;
+}
+
+.dark .swiper-pagination-bullet {
+  background: var(--color-muted);
 }
 
 .hero-slider .swiper-button-next,

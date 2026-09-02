@@ -36,7 +36,7 @@ const faqItems = [
 
 function FaqItem({ question, answer, isOpen, onToggle }) {
   return (
-    <div className="overflow-hidden rounded-2xl border border-border bg-surface dark:border-olive dark:bg-olive/40">
+    <div className="overflow-hidden rounded-2xl border border-border bg-surface dark:border-border">
       <button
         type="button"
         onClick={onToggle}
@@ -50,7 +50,7 @@ function FaqItem({ question, answer, isOpen, onToggle }) {
       </button>
 
       {isOpen && (
-        <div className="border-t border-border px-5 py-4 text-sm leading-7 text-muted dark:border-olive dark:text-oat">
+        <div className="border-t border-border px-5 py-4 text-sm leading-7 text-muted dark:border-border dark:text-oat">
           {answer}
         </div>
       )}

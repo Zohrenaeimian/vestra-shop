@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 function NotFound() {
   return (
-    <div className="flex min-h-[50vh] flex-col items-center justify-center px-4 py-12 text-center">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-background px-4 py-12 text-center text-foreground">
       <p className="text-6xl font-bold text-clementine sm:text-8xl">۴۰۴</p>
-      <h1 className="mt-4 text-2xl font-bold sm:text-3xl dark:text-cream">
+      <h1 className="mt-4 text-2xl font-bold sm:text-3xl">
         صفحه پیدا نشد
       </h1>
-      <p className="mt-3 max-w-md text-sm text-muted sm:text-base dark:text-oat">
+      <p className="mt-3 max-w-md text-sm text-muted sm:text-base">
         صفحه‌ای که دنبالش هستید وجود ندارد یا جابه‌جا شده است.
       </p>
       <Link

@@ -16,8 +16,8 @@ function SearchInput({ value, onChange, onFocus, onBlur, isOpen, onToggle }) {
   focus-within:border-clementine
   focus-within:ring-4
   focus-within:ring-clementine/20
-  dark:bg-olive
-  dark:border-olive 
+ 
+  dark:border-border 
   ${ isOpen ? "w-64 " : "w-12"}
   `}
  

@@ -90,7 +90,7 @@ function ProductInfo({ product }) {
           ${
             selectedSize === size
               ? "bg-olive text-cream dark:bg-cream dark:text-olive"
-              : "dark:border-olive dark:text-cream"
+              : "dark:border-border dark:text-cream"
           }
         `}
             >

@@ -24,7 +24,7 @@ function CategoriesSection({ compact = false }) {
             to={category.link}
             className="group flex flex-col items-center gap-2"
           >
-            <div className="overflow-hidden rounded-2xl border border-border bg-surface shadow-sm transition group-hover:-translate-y-1 group-hover:shadow-md dark:border-olive dark:bg-olive">
+            <div className="overflow-hidden rounded-2xl border border-border bg-surface shadow-sm transition group-hover:-translate-y-1 group-hover:shadow-md dark:border-border">
               <img
                 src={category.image}
                 alt={category.title}

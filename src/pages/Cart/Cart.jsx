@@ -35,7 +35,7 @@ function Cart() {
         {cartItems.map((item) => (
           <div
             key={`${item.id}-${item.color}-${item.size}`}
-            className="flex flex-col gap-4 rounded-2xl border border-border p-4 sm:flex-row sm:items-center sm:gap-6 sm:p-5 dark:border-olive"
+            className="flex flex-col gap-4 rounded-2xl border border-border p-4 sm:flex-row sm:items-center sm:gap-6 sm:p-5 dark:border-border"
           >
             <img
               src={item.image}
@@ -65,7 +65,7 @@ function Cart() {
                     })
                   )
                 }
-                className="flex h-10 w-10 items-center justify-center rounded-lg border text-xl dark:border-olive dark:text-cream"
+                className="flex h-10 w-10 items-center justify-center rounded-lg border text-xl dark:border-border dark:text-cream"
               >
                 -
               </button>
@@ -84,7 +84,7 @@ function Cart() {
                     })
                   )
                 }
-                className="flex h-10 w-10 items-center justify-center rounded-lg border text-xl dark:border-olive dark:text-cream"
+                className="flex h-10 w-10 items-center justify-center rounded-lg border text-xl dark:border-border dark:text-cream"
               >
                 +
               </button>
@@ -107,7 +107,7 @@ function Cart() {
           </div>
         ))}
 
-        <div className="rounded-2xl border border-border p-4 sm:p-6 dark:border-olive">
+        <div className="rounded-2xl border border-border p-4 sm:p-6 dark:border-border">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
             <h3 className="text-lg font-bold sm:text-xl dark:text-cream">جمع کل</h3>
             <span className="text-xl font-bold text-clementine sm:text-2xl">

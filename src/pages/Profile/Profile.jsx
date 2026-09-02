@@ -5,7 +5,7 @@ import Dashboard from "../../components/profile/Content/Dashboard/Dashboard";
 
 function Profile() {
   return (
-    <>
+    <div className="min-h-screen bg-background text-foreground">
       <Header />
       <Navbar />
       <div className="site-container py-6 sm:py-8">
@@ -17,7 +17,7 @@ function Profile() {
           </main>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

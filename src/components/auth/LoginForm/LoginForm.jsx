@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { loadFavorites } from "../../../store/slices/favoritesSlice";
 import Swal from "sweetalert2";
+import ThemeToggle from "../../layout/ThemeToggle/ThemeToggle";
 
 function LoginForm() {
   const [isVisible, setIsVisible] = useState(false);
@@ -58,26 +59,10 @@ function LoginForm() {
   };
 
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center bg-background px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-      <div
-        className="
-  mt-4
-  w-full
-  max-w-md
-  rounded-3xl
-  border
-  border-border/70
-  bg-surface/70
-  p-5
-  shadow-xl
-  shadow-clementine/20
-  backdrop-blur-xl
-  dark:border-olive
-  dark:bg-olive/60
-  sm:mt-10
-  sm:p-8
-"
-      >
+    <section className="relative flex min-h-screen flex-col items-center justify-center bg-background px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+      <ThemeToggle className="absolute start-4 top-4 flex h-10 w-10 items-center justify-center rounded-full text-xl transition hover:bg-oat/40 sm:start-6 sm:top-6" />
+
+      <div className="mt-4 w-full max-w-md rounded-3xl border border-border/70 bg-surface p-5 shadow-xl shadow-clementine/20 backdrop-blur-xl sm:mt-10 sm:p-8">
         <h2 className="text-center text-2xl/9 font-bold tracking-tight text-foreground">
           ورود به حساب کاربری
         </h2>

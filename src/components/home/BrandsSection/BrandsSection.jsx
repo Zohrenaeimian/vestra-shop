@@ -3,7 +3,7 @@ import brands from "./brandsData";
 
 function BrandsSection() {
   return (
-    <section className="rounded-3xl border border-border bg-surface px-6 py-8 dark:border-olive dark:bg-olive/30">
+    <section className="rounded-3xl border border-border bg-surface px-6 py-8 dark:border-border">
       <div className="mb-8 text-center">
         <p className="text-sm font-bold text-clementine">همکاری با برندها</p>
         <h2 className="mt-2 text-2xl font-bold">برندهای محبوب پوشاک</h2>
@@ -16,7 +16,7 @@ function BrandsSection() {
             to="/products"
             className="group flex flex-col items-center gap-3 text-center transition"
           >
-            <div className="flex h-20 w-full items-center justify-center rounded-2xl border border-border bg-cream p-4 transition group-hover:border-clementine group-hover:shadow-md dark:border-olive dark:bg-olive/20 md:h-24">
+            <div className="flex h-20 w-full items-center justify-center rounded-2xl border border-border bg-cream p-4 transition group-hover:border-clementine group-hover:shadow-md dark:border-border md:h-24">
               <img
                 src={brand.logo}
                 alt={brand.name}

@@ -25,7 +25,7 @@ function Navbar() {
     isActive || location.pathname.startsWith("/products");
 
   return (
-    <nav className="border-b border-border/60 bg-surface pb-7 dark:border-olive dark:bg-olive/90 md:pb-8">
+    <nav className="border-b border-border/60 bg-surface pb-7 dark:border-border md:pb-8">
       <div className="mx-4 flex h-16 items-center justify-between sm:mx-6 sm:h-[4.5rem] md:h-20 md:mx-10 lg:mx-16">
         <div className="flex min-w-0 items-center gap-1 sm:gap-2">
           <button

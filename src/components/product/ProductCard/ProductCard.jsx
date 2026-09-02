@@ -13,7 +13,7 @@ function ProductCard({ product }) {
       <FavoriteButton product={product} />
 
       <Link to={`/products/${product.id}`}>
-        <div className="relative overflow-hidden rounded-xl bg-surface shadow transition duration-300 group-hover:-translate-y-1 group-hover:shadow-md dark:bg-olive">
+        <div className="relative overflow-hidden rounded-xl bg-surface shadow transition duration-300 group-hover:-translate-y-1 group-hover:shadow-md">
           {hasDiscount && (
             <span className="absolute right-2 top-2 z-10 rounded-full bg-terracotta px-2 py-0.5 text-[10px] font-bold text-cream">
               %{product.discount}
@@ -27,7 +27,7 @@ function ProductCard({ product }) {
           />
 
           <div className="space-y-1 p-2.5">
-            <h3 className="line-clamp-2 text-xs font-bold text-olive dark:text-cream">
+            <h3 className="line-clamp-2 text-xs font-bold text-foreground">
               {product.title}
             </h3>
 
@@ -44,7 +44,7 @@ function ProductCard({ product }) {
                   </p>
                 </>
               ) : (
-                <p className="text-xs font-bold text-olive dark:text-cream">
+                <p className="text-xs font-bold text-foreground">
                   {product.price.toLocaleString()} تومان
                 </p>
               )}

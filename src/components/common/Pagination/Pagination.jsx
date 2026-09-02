@@ -37,7 +37,7 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
     `flex h-10 min-w-10 items-center justify-center rounded-full border px-3 text-sm font-medium transition duration-300 cursor-pointer ${
       isActive
         ? "border-clementine bg-clementine text-cream shadow-lg"
-        : "border-border bg-surface/40 text-foreground hover:bg-sage/40 dark:border-olive dark:bg-olive/40 dark:text-cream dark:hover:bg-olive"
+        : "border-border bg-surface/40 text-foreground hover:bg-sage/40 dark:border-border dark:text-cream dark:hover:bg-sage/20"
     }`;
 
   return (

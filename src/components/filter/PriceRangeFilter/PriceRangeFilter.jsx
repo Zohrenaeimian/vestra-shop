@@ -63,25 +63,25 @@ function PriceRangeFilter({ defaultOpen = false }) {
   const maxPercent = (maxPrice / MAX_PRICE) * 100;
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-border/70 bg-surface/60 shadow-lg backdrop-blur-md dark:border-olive dark:bg-olive/50">
+    <div className="overflow-hidden rounded-2xl border border-border/70 bg-surface/60 shadow-lg backdrop-blur-md dark:border-border">
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full cursor-pointer items-center justify-between p-4 transition-colors duration-300 hover:bg-sage/30 dark:hover:bg-olive/40"
+        className="flex w-full cursor-pointer items-center justify-between p-4 transition-colors duration-300 hover:bg-sage/30 dark:hover:bg-sage/20"
       >
         <h4 className="font-bold dark:text-cream">قیمت</h4>
         <span>{isOpen ? <FaAngleUp /> : <FaAngleDown />}</span>
       </button>
 
       {isOpen && (
-        <div className="space-y-4 border-t-2 border-border/50 p-4 dark:border-olive">
+        <div className="space-y-4 border-t-2 border-border/50 p-4 dark:border-border">
           <div className="flex flex-col gap-1 text-xs text-muted sm:flex-row sm:items-center sm:justify-between dark:text-oat">
             <span>از {minPrice.toLocaleString()} تومان</span>
             <span>تا {maxPrice.toLocaleString()} تومان</span>
           </div>
 
           <div className="relative h-8">
-            <div className="absolute top-1/2 right-0 left-0 h-1.5 -translate-y-1/2 rounded-full bg-oat/60 dark:bg-olive" />
+            <div className="absolute top-1/2 right-0 left-0 h-1.5 -translate-y-1/2 rounded-full bg-oat/60" />
             <div
               className="absolute top-1/2 h-1.5 -translate-y-1/2 rounded-full bg-clementine"
               style={{
